@@ -28,6 +28,10 @@ module.exports =
       id: "using-the-scanner"
       location: "example#using-the-scanner"
     }
+    {
+      id: "detail-view"
+      location: "example#detail-view"
+    }
   ]
 
   # drawers:
