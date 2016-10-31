@@ -19,7 +19,24 @@ module.exports =
   # rootView:
   #   location: "example#getting-started"
 
+<<<<<<< HEAD
 
+=======
+  preloads: [
+    {
+      id: "learn-more"
+      location: "example#learn-more"
+    }
+    {
+      id: "using-the-scanner"
+      location: "example#using-the-scanner"
+    }
+    {
+      id: "detail-view"
+      location: "example#detail-view"
+    }
+  ]
+>>>>>>> 3603bb287c893d2c08ac5fb9b8af1ccb967dea3b
 
   # drawers:
   #   left:
