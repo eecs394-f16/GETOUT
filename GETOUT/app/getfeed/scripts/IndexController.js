@@ -2,12 +2,10 @@ angular
   .module('getfeed')
   .controller('IndexController', function($scope, supersonic) {
 
-    $scope.updateCurrentEvent = function(ev){
-      $scope.currentEvent = JSON.stringify(ev);
-      var view = new supersonic.ui.View("getfeed#detailEvent");
-      supersonic.ui.layers.push(view);
-      supersonic.ui.view.reload()
-    };
+      $scope.updateCurrentEvent = function (ev) {
+          var view = new supersonic.ui.View("detail#detailEvent");
+          supersonic.ui.layers.push(view, { params: ev });
+      };
 
     $scope.testEvent1 = {
       name: "WhirlyBall",
@@ -44,7 +42,7 @@ angular
 
     }
 
-    $scope.currentEvent = $scope.testEvent1;
+    //$scope.currentEvent = $scope.testEvent1;
 
     $scope.testEvents =[];
     $scope.testEvents.push($scope.testEvent1);
