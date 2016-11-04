@@ -10,6 +10,8 @@ angular
     $scope.testEvent1 = {
       name: "WhirlyBall",
       location: "1825 W Webster Ave, Chicago, IL 60614",
+      lat: 41.9212,
+      lng: -87.6739,
       time: "11 AM - 12 AM",
       eventType: "Activity",
       image: "http://www.whirlyball.com/wp-content/themes/whirlyball/img/logo.png",
@@ -21,6 +23,8 @@ angular
     $scope.testEvent3 = {
       name: "Koi Fine Asian Cuisine & Lounge",
       location: "624 Davis Street Evanston, IL 60201",
+      lat: 42.0464,
+      lng: -87.6811,
       time: "from 6 p.m. to 7:30 p.m.",
       image: "http://www.koievanston.com/images/logo-Koi01.gif",
       eventType: "Food",
@@ -32,6 +36,8 @@ angular
     $scope.testEvent2 = {
       name: "Holiday Tree Lighting",
       location: "First Northern Credit Union, 1705 Sherman Ave",
+      lat: 42.0470,
+      lng: -87.6816,
       time: "from 6 p.m. to 7:30 p.m.",
       eventType: "Holiday",
       image: "http://cityofevanston.org/_images/logo-cityofevanston.png",

@@ -9,11 +9,6 @@ module.exports =
       id: "index"
       location: "getfeed#index" # Supersonic module#view type navigation
     }
-    {
-      title: "Settings"
-      id: "settings"
-      location: "example#settings"
-    }
   ]
 
   # rootView:
