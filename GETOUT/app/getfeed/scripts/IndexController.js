@@ -9,17 +9,13 @@ angular
 
     $scope.testEvent1 = {
       name: "WhirlyBall",
-<<<<<<< HEAD
       location: "1825 W Webster Ave, Chicago, IL 60614",
       lat: 41.9212,
       lng: -87.6739,
       time: "11 AM - 12 AM",
-=======
       location: "1825 W Webster Ave",
       time: "11AM - 12AM",
->>>>>>> 4d53bfe9cf174eaed23f396395050fa6270ffab4
       eventType: "Activity",
-      //image: "http://www.whirlyball.com/wp-content/themes/whirlyball/img/logo.png",
       activityType: "Sports",
       desc: "You can play whirlyball, bowl, play tag & watch sports at this spot also with American grub & drink.",
       link: "http://www.whirlyball.com",
@@ -28,17 +24,13 @@ angular
     }
     $scope.testEvent3 = {
       name: "Koi Fine Asian Cuisine & Lounge",
-<<<<<<< HEAD
       location: "624 Davis Street Evanston, IL 60201",
       lat: 42.0464,
       lng: -87.6811,
       time: "from 6 p.m. to 7:30 p.m.",
       image: "http://www.koievanston.com/images/logo-Koi01.gif",
-=======
       location: "624 Davis Street",
       time: "6:00PM - 7:30PM",
-      //image: "http://www.koievanston.com/images/logo-Koi01.gif",
->>>>>>> 4d53bfe9cf174eaed23f396395050fa6270ffab4
       eventType: "Food",
       foodType: "Asian",
       desc: "Koi is located in the right in the heart of charming Evanston’s restaurant row. Koi brings the bold flavors of the eight different regions of authentic Chinese Cuisine and fresh sushi to every dining experience. The new menu brings owner Sandy Chens’ love for traditional Chinese cooking to the forefront, while still offering the menu favorites that our regular customers have come to love.",
@@ -48,17 +40,13 @@ angular
     }
     $scope.testEvent2 = {
       name: "Holiday Tree Lighting",
-<<<<<<< HEAD
       location: "First Northern Credit Union, 1705 Sherman Ave",
       lat: 42.0470,
       lng: -87.6816,
       time: "from 6 p.m. to 7:30 p.m.",
-=======
       location: "1705 Sherman Ave",
       time: "6:00PM - 7:30PM",
->>>>>>> 4d53bfe9cf174eaed23f396395050fa6270ffab4
       eventType: "Holiday",
-      //image: "http://cityofevanston.org/_images/logo-cityofevanston.png",
       activityType: "Outdoors",
       desc: "Festivities will begin at 5 p.m. with music from the Evanston Children's Choir and appearances from surprise special guests. At 5:30 p.m., Mayor Elizabeth Tisdahl, Santa and Mrs. Claus will flip the switch and light the tree in Fountain Square. The event is free and open to all ages.",
       link: "http://www.cityofevanston.org/news/2015/11/celebrate-the-season-at-downtown-evanstons-holiday-tree-lighting-november-20/",
