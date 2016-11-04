@@ -23,7 +23,7 @@ angular
       image: "https://assets3.thrillist.com/v1/image/1375346/size/tmg-facebook_social.jpg",
     }
     $scope.testEvent3 = {
-      name: "Koi Fine Asian Cuisine & Lounge",
+      name: "Koi Happy Hour",
       location: "624 Davis Street Evanston, IL 60201",
       subLocation: "Evanston",
       lat: 42.0464,

@@ -2,23 +2,29 @@
  * These styles apply for native components on Android.
  * Read more about native styles at http://docs.appgyver.com
  ***********************************************************/
-
+ @font-face {
+   font-family: Pacifico;
+   font-weight: normal;
+   font-style: normal;
+   src: url("fonts/Pacifico.ttf");
+ }
 navigation-bar {
-  background-color: #00B5FF;
+  font-family: Pacifico;
+  background-color: #000080;
   color: #ffffff;
   padding-left: 6px;
   padding-right: 6px;
 }
 
 navigation-bar title {
+  font-family: Pacifico;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 600;
-}
+  }
 
 navigation-bar button {
   color: #ffffff;
-  font-weight: 300;
+  font-family: Pacifico;
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -30,7 +36,7 @@ navigation-bar back-indicator {
 
 navigation-bar back-button {
   color: #ffffff;
-  font-weight: 300;
+  font-family: Pacifico;
 }
 
 /**************************************

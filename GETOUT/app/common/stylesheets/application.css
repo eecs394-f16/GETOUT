@@ -1,8 +1,10 @@
-.navigation-bar title{
-  font-family: "Times New Roman";
-}
 .absolute-text{position:absolute; bottom:0; font-weight: bold ;font-size:24px; padding:10px 20px; color: white; width:100%; text-align:left;}
 .absolute-text a{font-size:16px; color:#b92b27;}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico.ttf);
+}
 
 .wrapper{
   position:relative;

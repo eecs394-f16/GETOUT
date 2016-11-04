@@ -2,21 +2,29 @@
  * These styles apply for native components on iOS.
  * Read more about native styles at http://docs.appgyver.com
  ***********************************************************/
+ @font-face {
+   font-family: Pacifico;
+   font-weight: normal;
+   font-style: normal;
+   src: url("fonts/Pacifico.ttf");
+ }
 
 navigation-bar {
+  font-family: Pacifico;
   background-color: #000080;
   color: #ffffff;
 }
 
 navigation-bar title {
   color: #ffffff;
+  font-family: Pacifico;
   font-size: 18px;
-  font-weight: 600;
 }
 
 navigation-bar button, navigation-bar back-bar-button {
   color: #ffffff;
-  font-weight: 300;
+  font-family: Pacifico;
+  font-size: 18px;
 }
 
 tab-bar {
