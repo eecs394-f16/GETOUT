@@ -1,6 +1,6 @@
 <div class="padding" ng-controller="IndexController">
 
-    <super-navbar style="background-color: #000080;">
+    <super-navbar>
         <super-navbar-title>
             GETOUT
         </super-navbar-title>
@@ -16,7 +16,7 @@
 
         <div class="row" style="margin:3px">
             <div class="col-xs-8">
-                <h3>{{event.location}}</h3>
+                <h3>{{event.subLocation}}</h3>
                 <h3>{{event.time}}</h3>
             </div>
 
@@ -28,31 +28,6 @@
 
         </div>
 
-        <!--
-        <div class="row">
-            <div class="col-xs-12">
-
-                <div style="margin-top: 30px; margin-bottom: 20px;" class="col-xs-12">
-                    <p>{{event.desc}}</p>
-                </div>
-
-
-                <div class="col-xs-12">
-                    <div class="row" style="margin-top:20px">
-                        <div class="col-xs-10">
-                            <button>
-                                Save Event
-                            </button>
-                        </div>
-                        <div class="col-xs-1 col-xs-offset-1">
-                            <a><img src="https://www.seeklogo.net/wp-content/uploads/2015/09/new-google-favicon.svg" style="height: 20px"></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        !-- >
     </div>
   </div>
 </div>
