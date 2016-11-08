@@ -16,6 +16,9 @@
   vertical-align: top;
 
 }
+label{
+  font-size: 10px;
+}
 
 .froodBox {
   border: 1px solid;
@@ -35,7 +38,7 @@
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   margin-bottom: 20px
 }
-.froodBoxTest {
+.outlineTest {
   border: 2px solid;
   border-color: #8900db;
   border-radius: 8px;

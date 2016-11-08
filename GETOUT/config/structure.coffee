@@ -27,4 +27,4 @@ module.exports =
   #
   initialView:
      id: "initialView"
-     location: "example#initial-view"
+     location: "getfeed#initial-view"

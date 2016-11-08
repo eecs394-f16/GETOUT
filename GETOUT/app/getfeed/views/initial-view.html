@@ -1,0 +1,59 @@
+<super-navbar>
+  <super-navbar-title>
+    Welcome!
+  </super-navbar-title>
+</super-navbar>
+
+
+<div ng-controller="InitialController" class="padding">
+
+<div>
+  <h1 style="font-size:20px; text-align:center; margin-bottom:10px">How do you want to Get Out?</h1>
+</div>
+    <div ng-click="addFilter('dateNight')"class="col-xs-4 outlineTest">
+      <label>Date Night</label>
+      <img src="/icons/dateNight.png" class="img-responsive" >
+    </div>
+    <div ng-click="addFilter('familyFun')"class="col-xs-4 outlineTest">
+      <label>Family Fun</label>
+      <img src="/icons/familyFun.png" class="img-responsive" >
+    </div>
+    <div ng-click="addFilter('loneWolf')"class="col-xs-4 outlineTest">
+      <label>Lone Wolf</label>
+      <img src="/icons/loneWolf.png" class="img-responsive" style="height: 85px; width:100%">
+    </div>
+    <div ng-click="addFilter('bottomsUp')"class="col-xs-4 outlineTest">
+      <label>Bottoms Up</label>
+      <img src="/icons/bottomsUp.png" class="img-responsive">
+    </div>
+    <div ng-click="addFilter('thrillSeeker')"class="col-xs-4 outlineTest">
+      <label>Thrill Seeker</label>
+      <img src="/icons/thrillSeeker.png"  class="img-responsive">
+    </div>
+    <div ng-click="addFilter('madSkillz')"class="col-xs-4 outlineTest">
+      <label>Mad Skillz</label>
+      <img src="/icons/madSkillz.png" class="img-responsive">
+    </div>
+    <div ng-click="addFilter('culturalInfusion')"class="col-xs-4 outlineTest">
+      <label>Cultural Infusion</label>
+      <img src="/icons/culturalInfusion.png" class="img-responsive">
+    </div>
+    <div ng-click="addFilter('nightOwl')"class="col-xs-4 outlineTest">
+      <label>Night Owl</label>
+      <img src="/icons/nightOwl.png" class="img-responsive">
+    </div>
+    <div ng-click="addFilter('shop')"class="col-xs-4 outlineTest">
+      <label>Shopaholic</label>
+      <img src="/icons/shop.png" class="img-responsive">
+    </div>
+    <div ng-click="addFilter('chillZone')"class="col-xs-4 col-xs-offset-4 outlineTest">
+      <label>Chill Zone</label>
+      <img src="/icons/chillZone.png" class="img-responsive">
+    </div>
+
+
+<div class="col-xs-12" style="margin-top: 20px">
+  <button onclick="supersonic.ui.initialView.dismiss()" class="btn btn-info" style="width:100%">Get Out There!</button>
+</div>
+
+</div>
