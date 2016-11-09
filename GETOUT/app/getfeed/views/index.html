@@ -11,12 +11,11 @@
     </super-navbar>
 
 <div>
-    <div class="froodBox" ng-click= "updateCurrentEvent(event)" ng-repeat="event in testEvents">
+    <div class="froodBox" ng-click= "updateCurrentEvent(event)" ng-repeat="event in displayEvents">
         <div class="wrapper">
             <img src="{{event.image}}" style ="width:100% height: 200px"class="img-responsive" alt="Responsive image">
             <p class="absolute-text">{{event.name}}</a> </p>
         </div>
-
 
         <div class="row" style="margin:3px">
             <div class="col-xs-8">

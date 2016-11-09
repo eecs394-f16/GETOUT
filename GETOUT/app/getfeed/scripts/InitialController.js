@@ -9,5 +9,9 @@ angular
       else {
         $scope.userFilters.push(filter);
       }
+    };
+    $scope.initializeFeed = function(filters){
+      var view = new supersonic.ui.View("getfeed#index");
+      supersonic.ui.layers.push(view, { params: filters });
     }
   });

@@ -1,15 +1,10 @@
 angular
   .module('getfeed')
   .controller('IndexController', function($scope, supersonic) {
-
-      $scope.updateCurrentEvent = function (ev) {
-          var view = new supersonic.ui.View("detail#detailEvent");
-          supersonic.ui.layers.push(view, { params: ev });
-      };
-
     $scope.testEvent1 = {
       name: "WhirlyBall",
       location: "1825 W Webster Ave, Chicago, IL 60614",
+      ActivityMood: ["madSkillz"],
       subLocation: "Bucktown",
       lat: 41.9212,
       lng: -87.6739,
@@ -25,6 +20,7 @@ angular
     $scope.testEvent3 = {
       name: "Koi Happy Hour",
       location: "624 Davis Street Evanston, IL 60201",
+      ActivityMood: ["madSkillz"],
       subLocation: "Evanston",
       lat: 42.0464,
       lng: -87.6811,
@@ -41,6 +37,7 @@ angular
     $scope.testEvent2 = {
       name: "Holiday Tree Lighting",
       location: "First Northern Credit Union, 1705 Sherman Ave",
+      ActivityMood: ["loneWolf"],
       subLocation: "Evanston",
       lat: 42.0470,
       lng: -87.6816,
@@ -54,10 +51,39 @@ angular
       image:"http://www.photos-public-domain.com/wp-content/uploads/2012/11/holiday-night-street-scene-with-christmas-lights.jpg",
     }
 
-    //$scope.currentEvent = $scope.testEvent1;
-
     $scope.testEvents =[];
     $scope.testEvents.push($scope.testEvent1);
     $scope.testEvents.push($scope.testEvent2);
     $scope.testEvents.push($scope.testEvent3);
+
+    $scope.displayEvents=[];
+
+    $scope.filterEvents = function(filters){
+      for (i in $scope.testEvents){
+        for (j in filters){
+          if ($scope.testEvents[i].ActivityMood==filters[j]){
+            $scope.displayEvents.push($scope.testEvents[i]);
+            break;
+          }
+        }
+      }
+    };
+
+    var filterListening = supersonic.ui.views.current.params.onValue(function (params) {
+
+        $scope.userFilter = $.map(params, function(value, index) {
+          return [value];
+        });
+          $scope.filterEvents($scope.userFilter);
+
+    });
+    filterListening();
+
+
+    $scope.updateCurrentEvent = function (ev) {
+        var view = new supersonic.ui.View("detail#detailEvent");
+        supersonic.ui.layers.push(view, { params: ev });
+    };
+
+
   });
