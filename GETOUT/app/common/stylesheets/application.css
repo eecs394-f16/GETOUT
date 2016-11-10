@@ -49,6 +49,10 @@ label{
   margin-bottom: 3px;
 }
 
+.activeFilter{
+  background-color: #ccc;
+}
+
 .froodBoxExtend {
   border: 2px solid;
   border-color: #5cb85c;

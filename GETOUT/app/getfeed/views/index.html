@@ -13,20 +13,21 @@
 <div>
     <div class="froodBox" ng-click= "updateCurrentEvent(event)" ng-repeat="event in displayEvents">
         <div class="wrapper">
-            <img src="{{event.image}}" style ="width:100% height: 200px"class="img-responsive" alt="Responsive image">
-            <p class="absolute-text">{{event.name}}</a> </p>
+            <img src={{event.fields.Image[0].url}} style ="width:100% height: 200px"class="img-responsive" alt="Responsive image">
+            <p class="absolute-text">{{event.fields.Name}}</a> </p>
         </div>
 
         <div class="row" style="margin:3px">
             <div class="col-xs-8">
-                <h3>{{event.subLocation}}</h3>
-                <h3>{{event.time}}</h3>
+                <h3>{{event.fields.City}}</h3>
+                <h3>{{event.fields.DateTime}}</h3>
             </div>
 
             <div class="col-xs-4">
-                <h3> {{event.eventType}} </h3>
-                <h3 ng-if="event.activityType">{{event.activityType}}</h3>
-                <h3 ng-if="event.foodType">{{event.foodType}}</h3>
+                <!--<h3> {{event.fields.Energy\ Level}} </h3>-->
+                <h3> {{event.fields.ActivityMood}} </h3>
+                <!--<h3 ng-if="event.activityType">{{event.activityType}}</h3>
+                <h3 ng-if="event.foodType">{{event.foodType}}</h3>-->
             </div>
 
         </div>
