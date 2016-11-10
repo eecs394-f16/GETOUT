@@ -9,22 +9,24 @@
    src: url("fonts/Pacifico.ttf");
  }
 navigation-bar {
-  font-family: Pacifico;
-  background-color: #000080;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: black;
   color: #ffffff;
   padding-left: 6px;
   padding-right: 6px;
+  font-weight: 600;
 }
 
 navigation-bar title {
-  font-family: Pacifico;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #ffffff;
   font-size: 18px;
+  font-weight: 600;
   }
 
 navigation-bar button {
   color: #ffffff;
-  font-family: Pacifico;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -36,7 +38,7 @@ navigation-bar back-indicator {
 
 navigation-bar back-button {
   color: #ffffff;
-  font-family: Pacifico;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 /**************************************
@@ -50,7 +52,7 @@ tab-bar {
 
 tab-bar tab-bar-item {
   color: #b0b1b4;
-  font-family: "Roboto";
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 10px;
 }
 

@@ -10,20 +10,22 @@
  }
 
 navigation-bar {
-  font-family: Pacifico;
-  background-color: #000080;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: black;
   color: #ffffff;
+  font-weight: 600;
 }
 
 navigation-bar title {
   color: #ffffff;
-  font-family: Pacifico;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
+  font-weight: 600;
 }
 
 navigation-bar button, navigation-bar back-bar-button {
   color: #ffffff;
-  font-family: Pacifico;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
 }
 
@@ -34,7 +36,7 @@ tab-bar {
 
 tab-bar tab-bar-item {
   color: #b0b1b4;
-  font-family: "Avenir";
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 10px;
 }
 

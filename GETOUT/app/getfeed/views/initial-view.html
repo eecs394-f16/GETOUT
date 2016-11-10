@@ -1,60 +1,54 @@
 <super-navbar>
   <super-navbar-title>
-    Welcome!
+    Get Out
   </super-navbar-title>
 </super-navbar>
 
 
 <div ng-controller="InitialController" class="padding">
 
-<div>
-  <h1 style="font-size:20px; text-align:center; margin-bottom:10px">How do you want to Get Out?</h1>
-</div>
+  <img src="/icons/festivalgirl.jpg" class="img-responsive landingImage">
+
     <div ng-click="addFilter('Date Night');activeDN=!activeDN" ng-class="{'activeFilter': activeDN}"class="col-xs-4 outlineTest">
+      <img src="/icons/dateNight.png" class="img-responsive">
       <label>Date Night</label>
-      <img src="/icons/dateNight.png" class="img-responsive" >
     </div>
     <div ng-click="addFilter('Family Fun');activeFF=!activeFF" ng-class="{'activeFilter': activeFF}" class="col-xs-4 outlineTest">
-      <label>Family Fun</label>
       <img src="/icons/familyFun.png" class="img-responsive" >
+      <label>Family Fun</label>
     </div>
     <div ng-click="addFilter('Lone Wolf');activeLW=!activeLW" ng-class="{'activeFilter': activeLW}"class="col-xs-4 outlineTest">
-      <label>Lone Wolf</label>
       <img src="/icons/loneWolf.png" class="img-responsive" >
+      <label>Lone Wolf</label>
     </div>
     <div ng-click="addFilter('Bottoms up');activeBU=!activeBU" ng-class="{'activeFilter': activeBU}"class="col-xs-4 outlineTest">
-      <label>Bottoms Up</label>
       <img src="/icons/bottomsUp.png" class="img-responsive">
-    </div>
-    <div ng-click="addFilter('Thrill Seeker');activeTS=!activeTS" ng-class="{'activeFilter': activeTS}" class="col-xs-4 outlineTest">
-      <label>Thrill Seeker</label>
-      <img src="/icons/thrillSeeker.png"  class="img-responsive">
+      <label>Bottoms Up</label>
     </div>
     <div ng-click="addFilter('Mad Skillz');activeMS=!activeMS" ng-class="{'activeFilter': activeMS}" class="col-xs-4 outlineTest">
-      <label>Mad Skillz</label>
       <img src="/icons/madSkillz.png" class="img-responsive">
+      <label>Mad Skillz</label>
     </div>
     <div ng-click="addFilter('Cultural Infusion'); activeCF=!activeCF" ng-class="{'activeFilter': activeCF}" class="col-xs-4 outlineTest">
-      <label>{{activeCF}}</label>
       <img src="/icons/culturalInfusion.png" class="img-responsive">
+      <label>Cultural Fusion</label>
     </div>
     <div ng-click="addFilter('Night Owl');activeNO=!activeNO" ng-class="{'activeFilter': activeNO}"class="col-xs-4 outlineTest">
-      <label>Night Owl</label>
       <img src="/icons/nightOwl.png" class="img-responsive">
+      <label>Night Owl</label>
     </div>
     <div ng-click="addFilter('Shop');activeS=!activeS" ng-class="{'activeFilter': activeS}" class="col-xs-4 outlineTest">
-      <label>Shopaholic</label>
       <img src="/icons/shop.png" class="img-responsive">
+      <label>Shopaholic</label>
     </div>
-    <div ng-click="addFilter('Chill Zone');activeCZ=!activeCZ" ng-class="{'activeFilter': activeCZ}"class="col-xs-4 col-xs-offset-4 outlineTest">
-      <label>Chill Zone</label>
+    <div ng-click="addFilter('Chill Zone');activeCZ=!activeCZ" ng-class="{'activeFilter': activeCZ}"class="col-xs-4 outlineTest">
       <img src="/icons/chillZone.png" class="img-responsive">
+      <label>Chill Zone</label>
     </div>
 
 
 
-<div class="col-xs-12" style="margin-top: 20px">
-  <button ng-click="initializeFeed(userFilters)" class="btn btn-info" style="width:100%">Get Out There!</button>
-</div>
+
+  <button ng-click="initializeFeed(userFilters)" class="btn btn-info" style="width:100%; border:3px solid; border-color:white; background-color:black; margin-top:3px">Get Out There!</button>
 
 </div>

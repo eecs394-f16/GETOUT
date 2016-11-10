@@ -20,7 +20,7 @@
         <div class="row" style="margin:3px">
             <div class="col-xs-8">
                 <h3>{{event.fields.City}}</h3>
-                <h3>{{event.fields.DateTime}}</h3>
+                <h3>{{event.fields.DateTime | date: 'short'}}</h3>
             </div>
 
             <div class="col-xs-4">

@@ -1,4 +1,15 @@
-.absolute-text{position:absolute; bottom:0; font-weight: bold ;font-size:24px; padding:10px 20px; color: white; width:100%; text-align:left; text-shadow: 2px 2px 4px #000000;}
+.absolute-text{
+  background-color: white;
+  position:absolute;
+  bottom:-20px;
+  font-weight: bold ;
+  font-size:24px;
+  padding:10px 20px;
+  color: black;
+  margin-left: 15px;
+  text-align:left;
+}
+
 .absolute-text a{font-size:16px; color:#b92b27;}
 
 @font-face {
@@ -47,11 +58,18 @@ label{
   border-color: white;
   background-color: #19c69b;
   margin-bottom: 3px;
+  text-align: center;
+}
+
+.landingImage{
+  border: 3px solid;
+  border-color: white;
 }
 
 .activeFilter{
   background-color: #ccc;
 }
+
 
 .froodBoxExtend {
   border: 2px solid;
