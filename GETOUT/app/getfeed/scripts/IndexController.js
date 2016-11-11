@@ -2694,10 +2694,15 @@ angular
 
     $scope.filterEvents = function(filters){
       for (i in $scope.testEvents){
-        for (j in filters){
-          if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
+        if (filters.length == 0){
             $scope.displayEvents.push($scope.testEvents[i]);
-            break;
+        }
+        else{   
+          for (j in filters){
+            if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
+              $scope.displayEvents.push($scope.testEvents[i]);
+              break;
+            }
           }
         }
       }
