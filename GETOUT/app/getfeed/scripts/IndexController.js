@@ -1575,6 +1575,27 @@ angular
                     "UniqueID": 7,
                     "name": "Zoo - Holiday Magic 2016",
                     "dateTime": "2016-12-03T22:11:00.000Z",
+                    "image": [
+                      {
+                          "id": "attGy6UB5sg5vU4kj",
+                          "url": "http://3.bp.blogspot.com/-JLLcRr-nSmg/UarCJ98P0lI/AAAAAAAAcRw/PC3JClff7ac/s1600/IMG_5544.JPG",
+                          "filename": "whirlyball.jpg",
+                          "size": 1166595,
+                          "type": "image/jpeg",
+                          "thumbnails": {
+                              "small": {
+                                  "url": "https://dl.airtable.com/eZ39fGhVSZ6uFdAyJfIu_small_whirlyball.jpg",
+                                  "width": 54,
+                                  "height": 36
+                              },
+                              "large": {
+                                  "url": "https://dl.airtable.com/gRfz4m6QP67vxjV3PlcQ_large_whirlyball.jpg",
+                                  "width": 512,
+                                  "height": 512
+                              }
+                          }
+                      }
+                    ],
                     "desc": "See the Lights. Feel the Magic. Continue the Tradition.",
                     "energyLevel": 5,
                     "price": ["$0.00"],
@@ -2668,13 +2689,13 @@ angular
           ]
       }
 
-      $scope.testEvents = $scope.testEvents.records;
+    $scope.testEvents = $scope.testEvents.records;
     $scope.displayEvents=[];
 
     $scope.filterEvents = function(filters){
       for (i in $scope.testEvents){
         for (j in filters){
-          if ($scope.testEvents[i].fields.ActivityMood.indexOf(filters[j])!=-1){
+          if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
             $scope.displayEvents.push($scope.testEvents[i]);
             break;
           }
@@ -2694,8 +2715,10 @@ angular
 
 
     $scope.updateCurrentEvent = function (ev) {
+        $scope.newEvent = jQuery.extend(true, {}, ev);
+        $scope.newEvent.fields.image=ev.fields.image[0]['url'];
         var view = new supersonic.ui.View("detail#detailEvent");
-        supersonic.ui.layers.push(view, { params: ev });
+        supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });
     };
 
 

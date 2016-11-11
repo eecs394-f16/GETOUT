@@ -29,7 +29,6 @@
             </super-navbar-title>
         </super-navbar>
 
-
     <div class="froodBox" ng-class="{'froodBoxExtend':going}">
       <img ng-src="{{currentEvent.image}}" class="img-responsive" style="width: 100%">
         <div class="row" style="width:100%">
@@ -38,10 +37,10 @@
                     <h1>{{currentEvent.name}}</h1>
                 </div>
                 <div class="col-xs-12">
-                    <h3>{{currentEvent.location}}</h3>
+                    <h3>{{currentEvent.city}}</h3>
                 </div>
                 <div class="col-xs-12">
-                    <h3>{{currentEvent.time}}</h3>
+                    <h3>{{currentEvent.dateTime | date: 'short'}}</h3>
                 </div>
             </div>
             <div class="col-xs-4">
