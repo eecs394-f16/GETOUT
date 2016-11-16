@@ -10,6 +10,28 @@ angular
         $scope.userFilters.push(filter);
       }
     };
+    $scope.energySlider = {
+      minValue: 3,
+      maxValue: 7,
+      options: {
+        floor: 1,
+        ceil: 10,
+        step: 1,
+        showTicksValues: true,
+        stepsArray: [
+          {value: 1, legend: 'Chill'},
+          {value: 2},
+          {value: 3},
+          {value: 4},
+          {value: 5},
+          {value: 6},
+          {value: 7},
+          {value: 8},
+          {value: 9},
+          {value: 10, legend: 'Rage'},
+        ]
+      }
+    };
     $scope.initializeFeed = function(filters){
       var view = new supersonic.ui.View("getfeed#index");
       supersonic.ui.layers.push(view, { params: filters });

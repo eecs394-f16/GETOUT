@@ -4,10 +4,18 @@
   </super-navbar-title>
 </super-navbar>
 
+<head>
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
+</head>
 
 <div ng-controller="InitialController" class="padding">
 
   <img src="/icons/festivalgirl.jpg" class="img-responsive landingImage">
+
+    <div style="height: 100px;">
+      <rzslider rz-slider-model="energySlider.minValue" rz-slider-high="energySlider.maxValue" rz-slider-options="energySlider.options"></rzslider>
+    </div>
 
     <div ng-click="addFilter('Date Night');activeDN=!activeDN" ng-class="{'activeFilter': activeDN}"class="col-xs-4 outlineTest">
       <img src="/icons/dateNight.png" class="img-responsive">
