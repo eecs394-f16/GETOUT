@@ -2,6 +2,7 @@ angular
   .module('getfeed')
   .controller('InitialController', function($scope, supersonic) {
     $scope.userFilters = [];
+
     $scope.addFilter = function (filter){
       if ($scope.userFilters.indexOf(filter)>=0){
         $scope.userFilters.splice($scope.userFilters.indexOf(filter),1);
@@ -10,6 +11,7 @@ angular
         $scope.userFilters.push(filter);
       }
     };
+
     $scope.energySlider = {
       minValue: 3,
       maxValue: 7,
@@ -32,8 +34,12 @@ angular
         ]
       }
     };
-    $scope.initializeFeed = function(filters){
+    $scope.initializeFeed = function(){
       var view = new supersonic.ui.View("getfeed#index");
-      supersonic.ui.layers.push(view, { params: filters });
+      $scope.filterRequest = {};
+      $scope.filterRequest.filters = $scope.userFilters;
+      $scope.filterRequest.energyLevelMax= $scope.energySlider.maxValue;
+      $scope.filterRequest.energyLevelMin= $scope.energySlider.minValue;
+      supersonic.ui.layers.push(view, { params: $scope.filterRequest });
     }
   });

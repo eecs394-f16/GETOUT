@@ -2692,16 +2692,23 @@ angular
     $scope.testEvents = $scope.testEvents.records;
     $scope.displayEvents=[];
 
-    $scope.filterEvents = function(filters){
+    $scope.filterEvents = function(filters, minLevel, maxLevel){
+      if (filters.length==1 && filters[0]==""){
+        filters = []
+      }
       for (i in $scope.testEvents){
         if (filters.length == 0){
+          if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
             $scope.displayEvents.push($scope.testEvents[i]);
+          }
         }
-        else{   
+        else{
           for (j in filters){
             if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
-              $scope.displayEvents.push($scope.testEvents[i]);
-              break;
+              if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
+                $scope.displayEvents.push($scope.testEvents[i]);
+                break;
+              }
             }
           }
         }
@@ -2709,11 +2716,8 @@ angular
     };
 
     var filterListening = supersonic.ui.views.current.params.onValue(function (params) {
-
-        $scope.userFilter = $.map(params, function(value, index) {
-          return [value];
-        });
-          $scope.filterEvents($scope.userFilter);
+        $scope.userFilter = params.filters.split(",")
+        $scope.filterEvents($scope.userFilter, params.energyLevelMin, params.energyLevelMax);
 
     });
     filterListening();
