@@ -2689,9 +2689,23 @@ angular
           ]
       }
 
+    $scope.sortBy = "fields.distanceFromUser";
+    $scope.sortName = "nearBy";
+    $scope.reverse = false;
+    $scope.sortMenu = false;
+
     $scope.testEvents = $scope.testEvents.records;
     $scope.displayEvents=[];
 
+    $scope.getDist = function(a, b, c, d){
+      a = parseFloat(a);
+      b = parseFloat(b);
+      c = parseFloat(c);
+      d = parseFloat(d);
+      var result = Math.sqrt(Math.pow((a - c),2) + Math.pow((b - d),2));
+      return result;
+    }
+    
     $scope.filterEvents = function(filters, minLevel, maxLevel){
       if (filters.length==1 && filters[0]==""){
         filters = []
@@ -2699,6 +2713,7 @@ angular
       for (i in $scope.testEvents){
         if (filters.length == 0){
           if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
+            $scope.testEvents[i].fields.distanceFromUser = $scope.getDist($scope.geolocationlat, $scope.geolocationlng, $scope.testEvents[i].fields.lat, $scope.testEvents[i].fields.lng);
             $scope.displayEvents.push($scope.testEvents[i]);
           }
         }
@@ -2706,6 +2721,7 @@ angular
           for (j in filters){
             if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
               if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
+                $scope.testEvents[i].fields.distanceFromUser = $scope.getDist($scope.geolocationlat, $scope.geolocationlng, $scope.testEvents[i].fields.lat, $scope.testEvents[i].fields.lng);
                 $scope.displayEvents.push($scope.testEvents[i]);
                 break;
               }
@@ -2717,8 +2733,12 @@ angular
 
     var filterListening = supersonic.ui.views.current.params.onValue(function (params) {
         $scope.userFilter = params.filters.split(",")
-        $scope.filterEvents($scope.userFilter, params.energyLevelMin, params.energyLevelMax);
 
+        supersonic.device.geolocation.getPosition().then( function(position) {
+          $scope.geolocationlat = position.coords.latitude;
+          $scope.geolocationlng = position.coords.longitude;
+          $scope.filterEvents($scope.userFilter, params.energyLevelMin, params.energyLevelMax);
+        });
     });
     filterListening();
 

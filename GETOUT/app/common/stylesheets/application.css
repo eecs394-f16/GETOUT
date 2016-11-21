@@ -103,6 +103,7 @@ label{
 .dropdown-content {
     display: none;
     position: fixed;
+    right: 10px;
     top: 2px;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -120,13 +121,14 @@ label{
   display: block;
 }
 .btn-info{
-  background-color: rgba(137,0,219, 1);
+  background-color: black;
   border-color: black;
 }
 .btn-info.active{
-  background-color: rgba(137,0,219, .5) !important;
+  background-color: grey !important;
   border-color: black !important;
   color: white;
+  font-weight: bold;
 }
 
 h1{
