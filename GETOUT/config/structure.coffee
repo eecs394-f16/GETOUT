@@ -9,6 +9,11 @@ module.exports =
       id: "home"
       location: "getfeed#index" # Supersonic module#view type navigation
     }
+    {
+      title: "Map"
+      id: "map"
+      location: "getfeed#mapview"
+    }
   ]
 
 

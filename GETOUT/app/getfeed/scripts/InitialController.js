@@ -34,13 +34,16 @@
         ]
       }
     };
+
     $scope.initializeFeed = function(){
-      var view = new supersonic.ui.View("getfeed#index");
+      //var view = new supersonic.ui.View("getfeed#index");
       $scope.filterRequest = {};
       $scope.filterRequest.filters = $scope.userFilters;
       $scope.filterRequest.energyLevelMax= $scope.energySlider.maxValue;
-      $scope.filterRequest.energyLevelMin= $scope.energySlider.minValue;
-      supersonic.ui.layers.push(view, { params: $scope.filterRequest });
+      $scope.filterRequest.energyLevelMin = $scope.energySlider.minValue; 
+      //supersonic.ui.layers.push(view, { params: $scope.filterRequest });
+      window.localStorage.setItem("filterRequest", JSON.stringify($scope.filterRequest));
+      supersonic.ui.initialView.dismiss();
     }
 
     $scope.testEvents =

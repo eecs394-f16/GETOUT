@@ -2,7 +2,6 @@ angular
   .module('getfeed')
   .controller('IndexController', function($scope, supersonic) {
 
-
       $scope.testEvents =
       {
           "records": [
@@ -2696,7 +2695,7 @@ angular
 
     $scope.testEvents = $scope.testEvents.records;
     $scope.displayEvents=[];
-    $scope.locationsToDisplay = [];
+    //$scope.locationsToDisplay = [];
 
     $scope.getDist = function(a, b, c, d){
       a = parseFloat(a);
@@ -2731,17 +2730,13 @@ angular
         }
       }
     };
+    $scope.filterRequest = JSON.parse(window.localStorage.getItem("filterRequest"));
 
-    var filterListening = supersonic.ui.views.current.params.onValue(function (params) {
-        $scope.userFilter = params.filters.split(",")
-
-        supersonic.device.geolocation.getPosition().then( function(position) {
-          $scope.geolocationlat = position.coords.latitude;
-          $scope.geolocationlng = position.coords.longitude;
-          $scope.filterEvents($scope.userFilter, params.energyLevelMin, params.energyLevelMax);
-        });
+    supersonic.device.geolocation.getPosition().then(function (position) {
+        $scope.geolocationlat = position.coords.latitude;
+        $scope.geolocationlng = position.coords.longitude;
+        $scope.filterEvents($scope.filterRequest.filters, $scope.filterRequest.energyLevelMin, $scope.filterRequest.energyLevelMax);
     });
-    filterListening();
 
 
     $scope.updateCurrentEvent = function (ev) {
@@ -2751,5 +2746,7 @@ angular
         supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });
     };
 
-
+    $scope.showInitialView = function () {
+        supersonic.ui.initialView.show();
+    }
   });

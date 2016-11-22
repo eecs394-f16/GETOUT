@@ -1,4 +1,4 @@
-<head>
+﻿<head>
   <meta name="viewport" content="initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
@@ -33,9 +33,9 @@
            var lat = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlat;
            var lng = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlng;
            var locationsToDisplay = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().displayEvents;
-           alert(JSON.stringify(locationsToDisplay));
-           alert(lat);
-           alert(lng);
+           //alert(JSON.stringify(locationsToDisplay));
+           //alert(lat);
+           //alert(lng);
            initMap(lat, lng, locationsToDisplay);
         }
           function initMap(lat, lng, locationsToDisplay) {
@@ -71,5 +71,4 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxoDQyxjsreQFKxIsiVHLq2C8OA89Whhk&callback=initMap"
         async defer></script>
-        {{displayEvents}}
 </div>

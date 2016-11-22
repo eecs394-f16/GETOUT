@@ -24,9 +24,14 @@
         <super-navbar-title>
             Get Out
         </super-navbar-title>
+        <super-navbar-button ng-click="showInitialView()" side="left">
+            <button type="button">Back</button>
+        </super-navbar-button>
+
         <super-navbar-button ng-click="sortMenu = !sortMenu;" side="right">
               <button class="dropbtn">Sort</button>
-          </super-navbar-button>
+        </super-navbar-button>
+
     </super-navbar>
 
     <div class="dropdown">
@@ -37,50 +42,8 @@
             <button class="btn-info btn-dropdown" ng-class="{active: sortName=='leastExp'}" ng-click="sortBy = 'fields.cost';sortMenu = false; sortName='leastExp'">Least Expensive</button>
             <button class="btn-info btn-dropdown" ng-class="{active: sortName=='mostExp'}" ng-click="sortBy = 'fields.cost';reverse = true; sortMenu = false; sortName='mostExp'">Most Expensive</button>
           </div>
-        </a>
+          </a>
         </div>
-
-        <div id="map" style="width: 100%; margin-bottom:10px"></div>
-        <script>
-        window.onload=function(){
-           var lat = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlat;
-           var lng = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlng;
-           var locationsToDisplay = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().displayEvents;
-           initMap(lat, lng, locationsToDisplay);
-        }
-          function initMap(lat, lng, locationsToDisplay) {
-            var center = {lat: lat, lng: lng};
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 10,
-              center: center
-            });
-            var infowindow = new google.maps.InfoWindow(), marker, i;
-            var contentStrings = []
-            for (i in locationsToDisplay) {
-              var name = locationsToDisplay[i].fields.name;
-              var energyLevel = locationsToDisplay[i].fields.energyLevel;
-              var moods = locationsToDisplay[i].fields.activityMood;
-              var contentString = '<div id="content">'+
-            '<h1>'+ name + '</h1>'+ '<h3>Energy Level:'+ energyLevel+ '</h3>'+ '<p>Activity Type(s):'+ moods+ '</p>'+
-            '</div>';
-              contentStrings.push(contentString);
-
-              var marker = new google.maps.Marker({
-                position: {lat: parseFloat(locationsToDisplay[i].fields.lat), lng:parseFloat(locationsToDisplay[i].fields.lng)},
-                map: map,
-                title: locationsToDisplay[i].fields.name
-              });
-              google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                return function(){
-                  infowindow.setContent(contentStrings[i]);
-                  infowindow.open(map, marker);
-                }
-              })(marker, i));
-            };
-          }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxoDQyxjsreQFKxIsiVHLq2C8OA89Whhk&callback=initMap"
-        async defer></script>
 
 <div id="#TOP">
     <div class="froodBox" ng-click= "updateCurrentEvent(event)" ng-repeat="event in displayEvents | orderBy: sortBy:reverse">
