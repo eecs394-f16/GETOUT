@@ -1,4 +1,4 @@
-﻿<head>
+<head>
   <meta name="viewport" content="initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
@@ -22,30 +22,20 @@
 
     <super-navbar>
         <super-navbar-title>
-            Get Out
+            Near By
         </super-navbar-title>
-        <super-navbar-button ng-click="sortMenu = !sortMenu;" side="right">
-              <button class="dropbtn">Sort</button>
-          </super-navbar-button>
     </super-navbar>
 
-    <div class="dropdown">
-          <a href="#TOP">
-          <div ng-show="sortMenu" class="dropdown-content show">
-            <button class="btn-info btn-dropdown" ng-class="{active: sortName=='nearBy'}" ng-click="sortBy = 'fields.distanceFromUser';sortMenu = false; reverse = false; sortName ='nearBy'">Near By</button>
-            <button class="btn-info btn-dropdown" ng-class="{active: sortName=='soon'}" ng-click="sortBy = 'fields.dateTime';sortMenu = false; reverse = false; sortName = 'soon'">Starting Soonest</button>
-            <button class="btn-info btn-dropdown" ng-class="{active: sortName=='leastExp'}" ng-click="sortBy = 'fields.cost';sortMenu = false; sortName='leastExp'">Least Expensive</button>
-            <button class="btn-info btn-dropdown" ng-class="{active: sortName=='mostExp'}" ng-click="sortBy = 'fields.cost';reverse = true; sortMenu = false; sortName='mostExp'">Most Expensive</button>
-          </div>
-        </a>
-        </div>
 
-        <div id="map" style="width: 100%; margin-bottom:10px"></div>
+        <div id="map" style="width: 100%"></div>
         <script>
         window.onload=function(){
            var lat = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlat;
            var lng = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().geolocationlng;
            var locationsToDisplay = angular.element(document.querySelector('[ng-controller="IndexController"]')).scope().displayEvents;
+           alert(JSON.stringify(locationsToDisplay));
+           alert(lat);
+           alert(lng);
            initMap(lat, lng, locationsToDisplay);
         }
           function initMap(lat, lng, locationsToDisplay) {
@@ -81,30 +71,5 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxoDQyxjsreQFKxIsiVHLq2C8OA89Whhk&callback=initMap"
         async defer></script>
-
-<div id="#TOP">
-    <div class="froodBox" ng-click= "updateCurrentEvent(event)" ng-repeat="event in displayEvents | orderBy: sortBy:reverse">
-        <div class="wrapper">
-            <img src={{event.fields.image[0].url}} style ="width:100%; max-height: 360px; min-height: 250px"class="img-responsive" alt="Responsive image">
-            <p class="absolute-text">{{event.fields.name}}</a> </p>
-        </div>
-
-        <div class="row" style="margin:3px">
-            <div class="col-xs-8">
-                <h3>{{event.fields.city}}</h3>
-                <h3>{{event.fields.cost}}</h3>
-                <h3>{{event.fields.dateTime | date: 'short'}}</h3>
-            </div>
-
-            <div class="col-xs-4">
-                <!--<h3> {{event.fields.Energy\ Level}} </h3>-->
-                <h3> {{event.fields.activityMood}} </h3>
-                <!--<h3 ng-if="event.activityType">{{event.activityType}}</h3>
-                <h3 ng-if="event.foodType">{{event.foodType}}</h3>-->
-            </div>
-
-        </div>
-
-    </div>
-  </div>
+        {{displayEvents}}
 </div>

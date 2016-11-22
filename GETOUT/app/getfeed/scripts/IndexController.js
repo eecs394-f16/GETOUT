@@ -2696,6 +2696,7 @@ angular
 
     $scope.testEvents = $scope.testEvents.records;
     $scope.displayEvents=[];
+    $scope.locationsToDisplay = [];
 
     $scope.getDist = function(a, b, c, d){
       a = parseFloat(a);
@@ -2705,7 +2706,7 @@ angular
       var result = Math.sqrt(Math.pow((a - c),2) + Math.pow((b - d),2));
       return result;
     }
-    
+
     $scope.filterEvents = function(filters, minLevel, maxLevel){
       if (filters.length==1 && filters[0]==""){
         filters = []
