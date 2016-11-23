@@ -6,7 +6,7 @@ module.exports =
   tabs: [
     {
       title: "Feed"
-      id: "home"
+      id: "feed"
       location: "getfeed#index" # Supersonic module#view type navigation
     }
     {

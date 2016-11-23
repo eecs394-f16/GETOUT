@@ -7,7 +7,7 @@
     /* Always set the map height explicitly to define the size of the div
      * element that contains the map. */
     #map {
-      height: 250px;
+      height: 96vh;
     }
     /* Optional: Makes the sample page fill the window. */
     html, body {
@@ -22,7 +22,7 @@
 
     <super-navbar>
         <super-navbar-title>
-            Near By
+            Get Out
         </super-navbar-title>
     </super-navbar>
 
@@ -43,6 +43,12 @@
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 10,
               center: center
+            });
+            var marker = new google.maps.Marker({
+              position: center,
+              icon: 'http://i.stack.imgur.com/orZ4x.png',
+              map: map,
+              title: "You"
             });
             var infowindow = new google.maps.InfoWindow(), marker, i;
             var contentStrings = []
