@@ -27,6 +27,9 @@
             <super-navbar-title>
                 Get Out
             </super-navbar-title>
+            <super-navbar-button ng-click="feelingLucky()" side="right">
+                <button type="button">Reroll</button>
+            </super-navbar-button>
         </super-navbar>
 
     <div class="froodBox" ng-class="{'froodBoxExtend':going}">
@@ -37,16 +40,18 @@
                     <h1>{{currentEvent.name}}</h1>
                 </div>
                 <div class="col-xs-12">
+                    <h3>{{currentEvent.address}}</h3>
+                </div>
+                <div class="col-xs-12">
                     <h3>{{currentEvent.city}}</h3>
                 </div>
                 <div class="col-xs-12">
                     <h3>{{currentEvent.dateTime | date: 'short'}}</h3>
+                    <img ng-repeat="filter in currentEvent.activityMood" src="{{filterLogo(filter)}}" class="img-responsive" style="height: 20px; display: inline-block;">
                 </div>
             </div>
-            <div class="col-xs-4">
-                  <h1>{{currentEvent.eventType}}</h1>
-                  <p ng-if="currentEvent.activityType">{{currentEvent.activityType}}</p>
-                  <p ng-if="currentEvent.foodType">{{currentEvent.foodType}}</p>
+            <div class="col-xs-4" style="text-align: right" >
+                  <h1>{{currentEvent.cost}}</h1>
             </div>
 
         </div>
@@ -56,22 +61,33 @@
 
                 <div style="margin-top: 30px; margin-bottom: 20px;" class="col-xs-12">
                     <p>{{currentEvent.desc}}</p>
+                    <a ng-click="openExternalURL(currentEvent.eventURL)">More Information</a>
                 </div>
+
 
           </div>
         </div>
         <div id="map" style="width: 100%"></div>
         <script>
         window.onload=function(){
-    	     var lat = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().lat
-           var lng = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().lng
-           initMap(lat, lng)
+    	     var lat = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().lat;
+           var lng = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().lng;
+           var userLat = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().userLat;
+           var userLng = angular.element(document.querySelector('[ng-controller="DetailEventController"]')).scope().userLng;
+           initMap(lat, lng, userLat, userLng)
         }
-          function initMap(lat, lng) {
+          function initMap(lat, lng, userLat, userLng) {
+            var user = {lat: userLat, lng: userLng};
             var center = {lat: lat, lng: lng};
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 16,
               center: center
+            });
+            var marker = new google.maps.Marker({
+              position: user,
+              icon: 'http://i.stack.imgur.com/orZ4x.png',
+              map: map,
+              title: "You"
             });
             var marker = new google.maps.Marker({
               position: center,

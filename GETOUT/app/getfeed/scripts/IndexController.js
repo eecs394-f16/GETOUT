@@ -2706,6 +2706,19 @@ angular
       return result;
     }
 
+    $scope.costString = function(cost){
+      if (cost==0) {
+        return "FREE"
+      }
+      else {
+        var result = ""
+        for (var i = 0; i<cost;i++){
+          result+="$"
+        }
+        return result
+      }
+    };
+
     $scope.filterEvents = function(filters, minLevel, maxLevel){
       if (filters.length==1 && filters[0]==""){
         filters = []
@@ -2714,6 +2727,7 @@ angular
         if (filters.length == 0){
           if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
             $scope.testEvents[i].fields.distanceFromUser = $scope.getDist($scope.geolocationlat, $scope.geolocationlng, $scope.testEvents[i].fields.lat, $scope.testEvents[i].fields.lng);
+            $scope.testEvents[i].fields.displayCost = $scope.costString($scope.testEvents[i].fields.cost);
             $scope.displayEvents.push($scope.testEvents[i]);
           }
         }
@@ -2722,6 +2736,7 @@ angular
             if ($scope.testEvents[i].fields.activityMood.indexOf(filters[j])!=-1){
               if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
                 $scope.testEvents[i].fields.distanceFromUser = $scope.getDist($scope.geolocationlat, $scope.geolocationlng, $scope.testEvents[i].fields.lat, $scope.testEvents[i].fields.lng);
+                $scope.testEvents[i].fields.displayCost = $scope.costString($scope.testEvents[i].fields.cost);
                 $scope.displayEvents.push($scope.testEvents[i]);
                 break;
               }
@@ -2737,6 +2752,37 @@ angular
         $scope.geolocationlng = position.coords.longitude;
         $scope.filterEvents($scope.filterRequest.filters, $scope.filterRequest.energyLevelMin, $scope.filterRequest.energyLevelMax);
     });
+
+    $scope.filterLogo = function(filter){
+      if (filter == "Date Night"){
+        return "/icons/dateNight.png"
+      }
+      else if (filter == "Family Fun"){
+        return "/icons/familyFun.png"
+      }
+      else if (filter == "Lone Wolf"){
+        return "/icons/loneWolf.png"
+      }
+      else if (filter == "Bottoms Up"){
+        return "/icons/bottomsUp.png"
+      }
+      else if (filter == "Mad Skillz"){
+        return "/icons/madSkillz.png"
+      }
+      else if (filter == "Cultural Infusion"){
+        return "/icons/culturalInfusion.png"
+      }
+      else if (filter == "Night Owl"){
+        return "/icons/nightOwl.png"
+      }
+      else if (filter == "Cheap Thrills"){
+        return "/icons/cheapThrills.png"
+      }
+      else{
+        return "/icons/chillZone.png"
+      }
+
+    };
 
 
     $scope.updateCurrentEvent = function (ev) {

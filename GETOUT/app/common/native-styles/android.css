@@ -68,12 +68,12 @@ tab-bar tab-bar-item marker-top:selected {
   background-color: #1596f7;
 }
 
-tab-bar-item#settings {
-  background-image: url(icons/cog.svg);
+tab-bar-item#map {
+  background-image: url(http://image.flaticon.com/icons/svg/45/45944.svg);
 }
 
-tab-bar-item#index {
-  background-image: url(icons/home.svg);
+tab-bar-item#feed {
+  background-image: url(icons/feed.png);
 }
 
 tab-bar-item#internet {
