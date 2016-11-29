@@ -3288,6 +3288,7 @@ angular
     $scope.updateCurrentEvent = function (ev) {
         $scope.newEvent = jQuery.extend(true, {}, ev);
         $scope.newEvent.fields.image=ev.fields.image[0]['url'];
+        $scope.newEvent.fields.lucky = false;
         var view = new supersonic.ui.View("detail#detailEvent");
         supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });
     };

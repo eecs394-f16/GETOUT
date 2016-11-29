@@ -39,7 +39,7 @@
       $scope.filterRequest = {};
       $scope.filterRequest.filters = $scope.userFilters;
       $scope.filterRequest.energyLevelMax= $scope.energySlider.maxValue;
-      $scope.filterRequest.energyLevelMin = $scope.energySlider.minValue; 
+      $scope.filterRequest.energyLevelMin = $scope.energySlider.minValue;
       window.localStorage.setItem("filterRequest", JSON.stringify($scope.filterRequest));
       supersonic.ui.initialView.dismiss();
     }
@@ -3233,6 +3233,7 @@
         var r = Math.floor(Math.random() * len);
         var ev = $scope.testEvents[r];
         $scope.newEvent = jQuery.extend(true, {}, ev);
+        $scope.newEvent.fields.lucky = true;
         $scope.newEvent.fields.image = ev.fields.image[ev.fields.image.length - 1]['url'];
         var view = new supersonic.ui.View("detail#detailEvent");
         supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });

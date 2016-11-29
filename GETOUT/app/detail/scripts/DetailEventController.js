@@ -3,6 +3,7 @@ angular
   .controller('DetailEventController', function ($scope, $window, supersonic) {
       var stopListening = supersonic.ui.views.current.params.onValue(function (params) {
           $scope.currentEvent = params;
+          $scope.luckyEvent = ($scope.currentEvent.lucky=='false') ? false : true;
           $scope.currentEvent.activityMood = $scope.currentEvent.activityMood.split(",");
           $scope.lat = parseFloat($scope.currentEvent.lat);
           $scope.lng = parseFloat($scope.currentEvent.lng);
@@ -10,6 +11,7 @@ angular
               $scope.userLat = position.coords.latitude;
               $scope.userLng = position.coords.longitude;
           });
+          $scope.$apply();
       });
       stopListening();
 
@@ -2742,7 +2744,12 @@ angular
           var ev = $scope.testEvents[r];
           $scope.newEvent = jQuery.extend(true, {}, ev);
           $scope.newEvent.fields.image = ev.fields.image[0]['url'];
-          $scope.currentEvent = $scope.newEvent;
+          $scope.currentEvent = $scope.newEvent.fields;
+          $scope.lat = parseFloat($scope.currentEvent.lat);
+          $scope.lng = parseFloat($scope.currentEvent.lng);
+          initMap($scope.lat, $scope.lng, $scope.userLat, $scope.userLng)
+          $scope.$apply();
       }
+
 
   });
