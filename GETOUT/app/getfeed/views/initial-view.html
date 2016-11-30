@@ -13,9 +13,7 @@
 
   <img src="/icons/landingImage.jpg" class="img-responsive landingImage">
 
-    <div style="height: 100px;">
-      <rzslider rz-slider-model="energySlider.minValue" rz-slider-high="energySlider.maxValue" rz-slider-options="energySlider.options"></rzslider>
-    </div>
+    <button ng-click="initializeFeed()" class="btn-getout">Get  Out  There!</button>
 
     <div ng-click="addFilter('Mad Skillz');activeMS=!activeMS" ng-class="{'activeFilter': activeMS}" class="col-xs-4 outlineTest">
       <img src="/icons/Mad Skillz white.png" class="img-responsive">
@@ -62,7 +60,9 @@
       <label class = "whiteword">Date Night</label>
     </div>
 
+    <button ng-click="feelingLucky()" class="btn-lucky">I'm Feeling Lucky!</button>
 
-  <button ng-click="initializeFeed()" class="btn btn-info" style="width:100%; border:3px solid; border-color:white; background-color:black; margin-top:3px">Get Out There!</button>
-   <button ng-click="feelingLucky()" class="btn btn-info" style="width:100%; border:3px solid; border-color:white; background-color:black; margin-top:5px">I'm Feeling Lucky!</button>
+    <div style="height: 100px; margin-top: 15px">
+        <rzslider rz-slider-model="energySlider.minValue" rz-slider-high="energySlider.maxValue" rz-slider-options="energySlider.options"></rzslider>
+    </div>
 </div>

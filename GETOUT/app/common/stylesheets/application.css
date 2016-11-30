@@ -140,6 +140,42 @@ label.whiteword{
   font-weight: bold;
 }
 
+.btn-getout {
+  background-color: white;
+  border-color: black;
+  border-radius: 13px;
+  border: 3px solid;
+  margin: 13px auto;
+  display: block;
+  height: 40px;
+  width: 50%;
+  font-weight: 900;
+  color: black;
+}
+
+.btn-getout:active {
+  background-color: black;
+  color: white;
+}
+
+.btn-lucky {
+  background-color: #06c6b2;
+  border: 2px solid;
+  border-color: #06c6b2;
+  border-radius: 13px; 
+  margin: 3px auto;
+  display: block; 
+  width: 98%;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+} 
+
+.btn-lucky:active {
+  background-color: #036c61;
+  border-color: #036c61;
+}
+
 h1{
   padding: 0px;
   margin: 0px auto;

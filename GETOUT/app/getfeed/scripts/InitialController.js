@@ -93,7 +93,7 @@
                           }
                       }
                     ],
-                    "dateTime": "2016-11-09T03:00:00.000Z",
+                    "dateTime": "2016-12-09T03:00:00.000Z",
                     "desc": "Come join the Global Engagement Summit as we open up our meeting to the rest of campus. We will having an open discussion on the presidential election with a focus on the role of the media and the scandals both candidates have been a part of. Also, because this is GES and we’re *internationally focused,* one of our members Sarah Faruqui is giving a presentation on elections in Hong Kong! ",
                     "energyLevel": 4,
                     "price": ["$0.00"],
@@ -141,6 +141,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T02:43:00.000Z",
                     "desc": "Each year, people from all over the world visit the Christkindlmarket Chicago. The outdoor market in the Chicago Loop has become so popular and loved by everyone that any Chicagoan will tell you that they could not imagine the city without it. Christkindlmarket Chicago is no longer just a German tradition, it has become a Chicago institution. The unique shopping experience, typical German food and drinks, as well as diverse holiday entertainment make the Christkindlmarket Chicago a preferred and popular destination. Admission is FREE!",
                     "energyLevel": 2,
                     "price": ["$0.00"],
@@ -198,7 +199,7 @@
                     "city": "Evanston",
                     "state": "Illinois",
                     "zip": 60202,
-                    "activityMood": ["Date Night", "Mad Skillz", "Thrill Seeker", "Night Owl", "Cheap Thrills"],
+                    "activityMood": ["Mad Skillz", "Thrill Seeker", "Night Owl", "Cheap Thrills"],
                     "fakeDate": "2016-12-02T23:45:00.000Z",
                     "cost": "1",
                     "lat": "42.0347976",
@@ -246,7 +247,7 @@
                     "city": "Chicago",
                     "state": "Illinois",
                     "zip": 60611,
-                    "activityMood": ["Date Night", "Lone Wolf", "Family Fun", "Cultural Infusion", "Chill Zone"],
+                    "activityMood": ["Lone Wolf", "Family Fun", "Cultural Infusion", "Chill Zone"],
                     "fakeDate": "2016-12-02T16:00:00.000Z",
                     "cost": "2",
                     "lat": "41.8916948",
@@ -526,7 +527,7 @@
                           }
                       }
                     ],
-                    "dateTime": "2016-11-09T23:00:00.000Z",
+                    "dateTime": "2016-12-05T23:00:00.000Z",
                     "desc": "A primer on startups addressing company formation, funding, creating an elevator pitch and pitch deck and how VCs assess opportunities and develop investment memos. Presented by Osage Partners, a venture capital fund that invests exclusively in startups that are commercializing university research.",
                     "energyLevel": 3,
                     "price": ["$0.00"],
@@ -593,7 +594,7 @@
                           }
                       }
                     ],
-                    "dateTime": "2016-11-23T01:00:00.000Z",
+                    "dateTime": "2016-12-06T01:00:00.000Z",
                     "desc": "Mike Doyle, CEO of Rent Like a Champion and alumni of ABC’s Shark Tank will be appearing on a guest panel to discuss his experiences on the show. Rent Like a Champion secured a deal with renowned investors Mark Cuban and Chris Sacca as a result of their appearance on the show. The panel will talk through some accounting topics related to their journey, as well as the Shark Tank experience and what it has meant for their business.",
                     "energyLevel": 3,
                     "price": ["$0.00"],
@@ -804,7 +805,7 @@
                           }
                       }
                     ],
-                    "dateTime": "2016-11-11T01:00:00.000Z",
+                    "dateTime": "2016-12-11T01:00:00.000Z",
                     "desc": "Circus presented by Ringling Brothers & Barnum & Bailey",
                     "energyLevel": 3,
                     "eventURL": "http://www.ticketmaster.com/Ringling-Bros-and-Barnum-Bailey-tickets/artist/2235332",
@@ -1358,7 +1359,7 @@
                     "city": "Chicago",
                     "state": "Illinois",
                     "zip": 60608,
-                    "activityMood": ["Cultural Infusion", "Lone Wolf", "Date Night", "Chill Zone", "Cheap Thrills"],
+                    "activityMood": ["Cultural Infusion", "Lone Wolf", "Date Night", "Cheap Thrills"],
                     "Field 15": "(occurs second Friday of Every month 6pm-10pm ",
                     "fakeDate": "2016-12-03T01:02:00.000Z",
                     "cost": "0",
@@ -1398,6 +1399,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T02:00:00.000Z",
                     "desc": "ComedySportz's interactive format is emceed by a referee overseeing a hilarious battle of wits between the home team, the blue Downtown Chicago Bosses, and the \"visiting\" red team, scored by live keyboard music and rocking popular music between scenes!  Using audience suggestions and willing volunteers, our professional players  create short games, scenes and songs on the spot, and the winner is determined by the Applause-o-Meter and your laughs!",
                     "energyLevel": 4,
                     "eventURL": "http://www.cszchicago.com/",
@@ -1453,7 +1455,7 @@
                     "city": "Evanston ",
                     "state": "Illinois",
                     "zip": 60201,
-                    "activityMood": ["Date Night", "Family Fun", "Lone Wolf", "Cultural Infusion", "Cheap Thrills"],
+                    "activityMood": ["Date Night", "Family Fun", "Lone Wolf", "Cultural Infusion"],
                     "fakeDate": "2016-12-03T01:00:00.000Z",
                     "cost": "1",
                     "lat": "42.0490241",
@@ -1492,6 +1494,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-02T16:30:00.000Z",
                     "desc": "Join the EVC group and the Polsky Center at the 17th annual SeedCon, Chicago Booth's annual entrepreneurship and venture capital conference. Through keynotes, workshops, panels, and networking, the conference provides exciting opportunities for entrepreneurs, investors, and those passionate about start-ups to network and build businesses together.",
                     "energyLevel": 5,
                     "eventURL": "https://www.chicagobooth.edu/alumni/events/showEvent?eventId=12570",
@@ -1605,6 +1608,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-02T14:00:00.000Z",
                     "desc": "Presented by Karen DeCrow and the Fight for Gender Equality. Here at the 50th anniversary of NOW, join Northwestern University Libraries as we celebrate DeCrow’s accomplishments with an exhibit drawn from her personal papers (which were donated to University Archives upon her death in 2014) and materials from our vast Femina Collections documenting the First and Second Wave liberation movements.",
                     "energyLevel": 1,
                     "eventURL": "http://planitpurple.northwestern.edu/event/502446",
@@ -1821,6 +1825,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-02T22:00:00.000Z",
                     "desc": "HAPPY HOUR COURTESY OF THE GREEN TEAM!  Please join your classmates at The Cellar to closeout the year for some Liquid Networking.  ",
                     "energyLevel": 10,
                     "eventURL": "http://thecellarevanston.com/",
@@ -1871,6 +1876,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T02:43:00.000Z",
                     "desc": "This mega fair is an opportunity for serious crafters from around the country to sell their handmade arts and wares, and it's the perfect place to get extra special gifts, or maybe a little something for yourself in the process. \n\n250+ MAKERS AND MORE\nRenegade is a celebration of DIY spirit and for each Fair gathers new and seasoned independent Makers alike.\n\nStay tuned for our Roster line-up!\nParking is limited, so enjoy our free trolley! Pick-up services from Ashland Ave. Orange Line Stop begins at 10:30am. Last pick-up from Bridgeport Art Center at 6:30pm.\n\nNeed a ride? UBER has provided a code for a free $15 ride for all 1st time users for ALL 2016 RCF events! The code isRCF2016 and can be used for all Fairs!",
                     "energyLevel": 2,
                     "price": ["$0.00"],
@@ -1976,7 +1982,7 @@
                     "city": "Brookefield",
                     "state": "Illinois",
                     "zip": 60513,
-                    "activityMood": ["Date Night", "Family Fun", "Lone Wolf", "Chill Zone", "Cheap Thrills"],
+                    "activityMood": ["Date Night", "Family Fun", "Chill Zone", "Cheap Thrills"],
                     "fakeDate": "2016-12-02T22:11:00.000Z",
                     "cost": "0",
                     "lat": "41.8353184",
@@ -2085,53 +2091,6 @@
                 "createdTime": "2016-11-07T01:29:28.000Z"
             },
             {
-                "id": "recefowoBoZFVePym",
-                "fields": {
-                    "UniqueID": 1,
-                    "name": "World Series Game 7",
-                    "image": [
-                      {
-                          "id": "attlFjXEUUJBhloDp",
-                          "url": "https://dl.airtable.com/GLxS4FzhSwKr6fXCcjw0_eqdhbus.jpg",
-                          "filename": "eqdhbus.jpg",
-                          "size": 103953,
-                          "type": "image/jpeg",
-                          "thumbnails": {
-                              "small": {
-                                  "url": "https://dl.airtable.com/Gcgw38M9RatvHRppv0Yc_small_eqdhbus.jpg",
-                                  "width": 38,
-                                  "height": 36
-                              },
-                              "large": {
-                                  "url": "https://dl.airtable.com/VvFlWJ9RDiec8UE9bJPt_large_eqdhbus.jpg",
-                                  "width": 512,
-                                  "height": 512
-                              }
-                          }
-                      }
-                    ],
-                    "dateTime": "2016-11-03T00:00:00.000Z",
-                    "desc": "Must win game for the Cubs and Indians and will determine who is the MLB World Champions for 2016\n",
-                    "energyLevel": 3,
-                    "price": ["$1", "000.00"],
-                    "eventURL": "http://cubs.mlb.com",
-                    "address": "1060 W Addison",
-                    "city": "Chicago",
-                    "state": "IL",
-                    "zip": 60613,
-                    "activityMood": ["Date Night", "Family Fun", "Thrill Seeker", "Cheap Thrills"],
-                    "fakeDate": "2016-11-03T00:00:00.000Z",
-                    "cost": "1",
-                    "lat": "41.9474576",
-                    "lng": "-87.6583228",
-                    "EnergyMin": 2,
-                    "EnergyMax": 4,
-                    "TimeStart": "2016-12-03T01:00:00.000Z",
-                    "TimeEnd": "2016-12-03T04:00:00.000Z"
-                },
-                "createdTime": "2016-11-05T21:23:42.000Z"
-            },
-            {
                 "id": "recektGVM3nxSCM8x",
                 "fields": {
                     "UniqueID": 61,
@@ -2176,6 +2135,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T01:00:00.000Z",
                     "desc": "Students of The Harold Ramis Film School at The Second City Training Center in Chicago recently got a visit from bona fide comedy badass Paul Feig. If you live on a planet where there is no laugher, you might not be familiar with his copious list of credits, including creating cult TV fave Freaks and Geeks and, more recently, directing Bridesmaids, The Heat, and last summer’s Ghostbusters reboot.",
                     "energyLevel": 4,
                     "eventURL": "http://www.secondcity.com/paul-feig-harold-ramis-film-school",
@@ -2288,6 +2248,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-02T14:00:00.000Z",
                     "desc": "Mourning during the AIDS Crisis. During much of the 20th century, death was a private and comparatively silent event. However, during the HIV/AIDS crisis in the 1980s and 90s, a politicized resurgence of highly visible and public acts of mourning emphasized the body ravaged by the virus. In some ways, these practices paralleled the public and material mourning practices of the nineteenth century. ",
                     "energyLevel": 1,
                     "eventURL": "http://planitpurple.northwestern.edu/event/498594",
@@ -2526,6 +2487,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T01:00:00.000Z",
                     "desc": "As part of National Week of Action Against School Pushout, the Education Law & Policy Society (ELPS) and Stand Up For Each Other (SUFEO) are hosting an event discussion about Senate Bill 100 and the impact it is having in our schools, the school-to-prison pipeline, and the process of creating and passing legislation. Lunch will be provided!",
                     "energyLevel": 3,
                     "price": ["$0.00"],
@@ -3153,6 +3115,7 @@
                           }
                       }
                     ],
+                    "dateTime": "2016-12-03T02:43:00.000Z",
                     "desc": "Join us for the brilliance of this fun, free, family-oriented holiday celebration, featuring luminous displays and holiday-season activities throughout zoo grounds.\n\nFestive Activities\nPhotos with Santa through December 23\nFree crafts for children\nUnique educational chats\n3D displays\nWarm spiced wine and frosty lagers\nDelicious holiday snacks\nHoliday gift shopping\nLive ice-sculpture carving\nCarousel and train rides\nMusical light shows\n3D holiday specs while supplies last!\nSpecial Events\nZooLights Opening Night\nFriday, November 25\nHelp us flip the switch! At 4:25 p.m. join a lighting ceremony next to Café at Wild Things to kick off the festivities.\n\nHoliday Market\nTuesday, November 29\nDon’t miss the wildest holiday-shopping fair in the city! The zoo’s first-ever Holiday Market will feature more than 30 amazing artisan vendors throughout zoo grounds during ZooLights. Please note: only those with tickets will be allowed entry to the zoo this evening.\n6:30–10 p.m.\nFor participants of all ages\n$10 ($8 for Lincoln Park Zoo members)\nBuy tickets to the Holiday Market\n\nBrewLights Presented By Louis Glunz Beer\nThursday, December 1\nJoin Louis Glunz Beer and the Auxiliary Board of Lincoln Park Zoo for a craft-beer fest during ZooLights! Enjoy local craft, seasonal and international beers on tap throughout the zoo. Please note: only those with tickets will be allowed entry to the zoo this evening.\n5:30 p.m.–9 p.m.\nFor participants ages 21 and older\n$40–$60\nBuy tickets to BrewLights Presented By Louis Glunz Beer\n\nAdults Night Out at ZooLights\nWednesday, December 7\nEnjoy the brilliance of ZooLights minus the kids and crowds and with a beer in hand! This adults-only event features animal chats and enrichment viewings, a live band and food and drinks available for purchase. Please note: only those with tickets will be allowed entry to the zoo this evening.\n6:30 p.m.–10 p.m.\nFor participants ages 18 and older\n$15 ($12 for Lincoln Park Zoo members)\nBuy tickets to Adults Night Out at ZooLights\n\nMembers-Only Night at ZooLights Presented By Kalahari Resorts and Conventions\nThursday, December 8\nLincoln Park Zoo members and their guests get exclusive access to ZooLights as well as free skate rental and ice time at the Farm-in-the-Zoo!\n4:30–9 p.m.\nFor Lincoln Park Zoo members and their guests\nLearn more about Members-Only Night at ZooLights\n\nThe Chris White Trio Tribute to “A Charlie Brown Christmas”\nThursday, December 15\nSnap your fingers and sing along to this jazzy take on one of the season’s classic soundtracks. Please note: this is a ticketed event that takes place at Café Brauer during ZooLights.\n$25 ($20 for Lincoln Park Zoo members); VIP upgrade: $40\nFor participants of all ages\nBuy tickets to Charlie Brown Christmas Tribute\n\nNew Year’s Eve at ZooLights\nSaturday, December 31\nCelebrate New Year’s Eve at the most sparkling setting in town! We’ll distribute complimentary festive hats, horns and party favors to visitors while supplies last.\n4:30-9 p.m.\nFor participants of all ages\n\nZooLights Coat Drive\nEvery night of ZooLights we will be collecting new and gently used winter clothing. Donated items will be distributed to Chicago charities. Donation boxes will be located in Gateway Pavilion and Park Place Café.\n\nMembers Lounge\nLincoln Park Zoo members enjoy exclusive access to a Members Lounge located on the lower level of Park Place Café! Warm up with free hot chocolate, cider and tea, cookies and crafts.\nEvery ZooLights night except December 8 and January 1\nMembers Lounge hours: 4:30–8 p.m.\n\nMarketing and sponsorship opportunities are available. For more information, please contact Corporate Alliances Manager Ryann Kehoe at rkehoe@lpzoo.org.",
                     "energyLevel": 3,
                     "price": ["$0.00"],
@@ -3201,7 +3164,7 @@
                           }
                       }
                     ],
-                    "dateTime": "2016-11-15T03:00:00.000Z",
+                    "dateTime": "2016-12-07T03:00:00.000Z",
                     "desc": "Red Bull Sound Select is a monthly live music showcase curated by local tastemakers. \n\nFeaturing: The Cool Kids / Payroll Giovanni (of Doughboyz Cashout) / Femdot\n\nDJ Set by: Ty Howard\n\n*RSVP for $3 entry: http://win.gs/DecChi \n*Join the conversation: @RBsoundselect #BreakMusic\n\nNOTE: RSVP confirmation does not guarantee you entry, but does qualify you for a $3 ticket. Entry is first come first served up to capacity, regardless of RSVP. RSVP is also only good for each individual guest. No +1s will be included. You must RSVP on redbullsoundselect.com to receive the discounted ticket price. The show is all ages, but an ID is required.",
                     "energyLevel": 5,
                     "price": ["$3.00"],
@@ -3210,7 +3173,7 @@
                     "city": "Chicago",
                     "state": "Illinois",
                     "zip": 60608,
-                    "activityMood": ["Date Night", "Bottoms Up", "Night Owl", "Cultural Infusion", "Cheap Thrills"],
+                    "activityMood": ["Bottoms Up", "Night Owl", "Cultural Infusion", "Cheap Thrills"],
                     "Field 15": "9-1am",
                     "fakeDate": "2016-12-03T03:00:00.000Z",
                     "cost": "1",
