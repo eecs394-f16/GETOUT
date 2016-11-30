@@ -20,6 +20,7 @@
         ceil: 10,
         step: 1,
         showTicksValues: true,
+        showTicks: false,
         stepsArray: [
           {value: 1, legend: 'Chill'},
           {value: 2},

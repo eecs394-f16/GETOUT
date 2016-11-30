@@ -3255,31 +3255,31 @@ angular
 
     $scope.filterLogo = function(filter){
       if (filter == "Date Night"){
-        return "/icons/dateNight.png"
+        return "/icons/dateNightB.png"
       }
       else if (filter == "Family Fun"){
-        return "/icons/familyFun.png"
+        return "/icons/Family Fun black.png"
       }
       else if (filter == "Lone Wolf"){
-        return "/icons/loneWolf.png"
+        return "/icons/lone wolf black.png"
       }
       else if (filter == "Bottoms Up"){
-        return "/icons/bottomsUp.png"
+        return "/icons/Bottoms up BLACK.png"
       }
       else if (filter == "Mad Skillz"){
-        return "/icons/madSkillz.png"
+        return "/icons/Mad Skillz black.png"
       }
       else if (filter == "Cultural Infusion"){
-        return "/icons/culturalInfusion.png"
+        return "/icons/cultureal fusion black.png"
       }
       else if (filter == "Night Owl"){
-        return "/icons/nightOwl.png"
+        return "/icons/night owl black.png"
       }
       else if (filter == "Cheap Thrills"){
-        return "/icons/cheapThrills.png"
+        return "/icons/cheap thrills black.png"
       }
       else{
-        return "/icons/chillZone.png"
+        return "/icons/thrill seeker black.png"
       }
 
     };
