@@ -15,6 +15,7 @@
 @font-face {
     font-family: Pacifico;
     src: url(Pacifico.ttf);
+    font-family: "Helvetica Neue";
 }
 
 body {
@@ -57,18 +58,22 @@ label{
 .outlineTest {
   border: 3px solid;
   border-color: white;
-  background-color: #19c69b;
+  background-color: #06c6b2;
   margin-bottom: 3px;
   text-align: center;
+  border-radius:10px;
 }
-
+label.whiteword{
+  color: #ffffff;
+  font-size: 11px;
+}
 .landingImage{
   border: 3px solid;
   border-color: white;
 }
 
 .activeFilter{
-  background-color: #ccc;
+  background-color: #036c61;
 }
 
 

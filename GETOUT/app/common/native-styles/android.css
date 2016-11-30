@@ -3,10 +3,10 @@
  * Read more about native styles at http://docs.appgyver.com
  ***********************************************************/
  @font-face {
-   font-family: Pacifico;
+   font-family: GetOut;
    font-weight: normal;
    font-style: normal;
-   src: url("fonts/Pacifico.ttf");
+   src: url("fonts/GetOut.ttf");
  }
 navigation-bar {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
