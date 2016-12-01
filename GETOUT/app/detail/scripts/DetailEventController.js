@@ -22,7 +22,7 @@ angular
                   "id": "rec0VNNyRnVZADEDt",
                   "fields": {
                       "UniqueID": 42,
-                      "name": "GES Open Meeting: Election 2016",
+                      "name": "GES Meeting: Election 2016",
                       "image": [
                         {
                             "id": "att2Nz7p7zYGIwNed",
@@ -42,9 +42,28 @@ angular
                                     "height": 219
                                 }
                             }
+                        },
+                        {
+                            "id": "attVwE6yKlOUtJ1Xe",
+                            "url": "https://dl.airtable.com/bDC8OORyRqP5utNnGgac_blob",
+                            "filename": "blob",
+                            "size": 118190,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/PhqXD7r5ThOa49ntUyLy_small_blob",
+                                    "width": 36,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/74Swh1hQYe7kKWFc9pOK_large_blob",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
-                      "dateTime": "2016-11-09T03:00:00.000Z",
+                      "dateTime": "2016-12-09T03:00:00.000Z",
                       "desc": "Come join the Global Engagement Summit as we open up our meeting to the rest of campus. We will having an open discussion on the presidential election with a focus on the role of the media and the scandals both candidates have been a part of. Also, because this is GES and we’re *internationally focused,* one of our members Sarah Faruqui is giving a presentation on elections in Hong Kong! ",
                       "energyLevel": 4,
                       "price": ["$0.00"],
@@ -53,11 +72,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Cultural Infusion"],
+                      "activityMood": ["Cultural Infusion", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T03:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0597864",
-                      "lng": "-87.6751549"
+                      "lng": "-87.6751549",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T03:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-08T01:54:55.000Z"
               },
@@ -87,6 +111,7 @@ angular
                             }
                         }
                       ],
+                      "dateTime": "2016-12-03T02:43:00.000Z",
                       "desc": "Each year, people from all over the world visit the Christkindlmarket Chicago. The outdoor market in the Chicago Loop has become so popular and loved by everyone that any Chicagoan will tell you that they could not imagine the city without it. Christkindlmarket Chicago is no longer just a German tradition, it has become a Chicago institution. The unique shopping experience, typical German food and drinks, as well as diverse holiday entertainment make the Christkindlmarket Chicago a preferred and popular destination. Admission is FREE!",
                       "energyLevel": 2,
                       "price": ["$0.00"],
@@ -95,12 +120,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60602,
-                      "activityMood": ["Shop Til You Drop", "Family Fun"],
+                      "activityMood": ["Family Fun", "Cheap Thrills"],
                       "Field 15": "December 1 - 24, 2016 (begins Nov. 18)  Hours Open Daily:  Sunday - Thursday 11am - 8 pm  Friday - Saturday 11 am - 9 pm",
                       "fakeDate": "2016-12-03T02:43:00.000Z",
                       "cost": "0",
                       "lat": "41.8842641",
-                      "lng": "-87.6325324"
+                      "lng": "-87.6325324",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T23:30:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:09:44.000Z"
               },
@@ -139,11 +169,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60202,
-                      "activityMood": ["Date Night", "Mad Skillz", "Thrill Seeker", "Night Owl"],
+                      "activityMood": ["Mad Skillz", "Thrill Seeker", "Night Owl", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T23:45:00.000Z",
                       "cost": "1",
                       "lat": "42.0347976",
-                      "lng": "-87.6982894"
+                      "lng": "-87.6982894",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-02T23:45:00.000Z",
+                      "TimeEnd": "2016-12-03T01:15:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T04:15:49.000Z"
               },
@@ -182,11 +217,16 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60611,
-                      "activityMood": ["Date Night", "Lone Wolf", "Family Fun", "Cultural Infusion", "Chill Zone"],
+                      "activityMood": ["Lone Wolf", "Family Fun", "Cultural Infusion", "Chill Zone"],
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "2",
-                      "lat": "41.8917105",
-                      "lng": "-87.6106694"
+                      "lat": "41.8916948",
+                      "lng": "-87.609196",
+                      "EnergyMin": 6,
+                      "EnergyMax": 8,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T21:58:07.000Z"
               },
@@ -194,24 +234,24 @@ angular
                   "id": "rec4A3DeCOHQtI917",
                   "fields": {
                       "UniqueID": 35,
-                      "name": "Mary and Leigh Block Museum",
+                      "name": "M&L Block Museum",
                       "image": [
                         {
-                            "id": "atteqtYqJPz1NMd5x",
-                            "url": "https://dl.airtable.com/eADEXEaSui6Hgsw1yZ5A_buildingshot.jpg",
-                            "filename": "buildingshot.jpg",
-                            "size": 287427,
-                            "type": "image/jpeg",
+                            "id": "attuVjqhpfrqmh1Ge",
+                            "url": "https://dl.airtable.com/JpVxp579SfWFeSiQ5che_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 3383703,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/MoqI5pEyTKuj1L9bpE1M_small_buildingshot.jpg",
-                                    "width": 84,
+                                    "url": "https://dl.airtable.com/1zKn5Mf8TQ6XAUgrSMMc_small_undefined.png",
+                                    "width": 46,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/zzMGxXyR1kL1QkL4EUQq_large_buildingshot.jpg",
+                                    "url": "https://dl.airtable.com/tLvxe6caSeS1OLZytKLO_large_undefined.png",
                                     "width": 512,
-                                    "height": 340
+                                    "height": 512
                                 }
                             }
                         }
@@ -225,12 +265,17 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60208,
-                      "activityMood": ["Cultural Infusion", "Date Night", "Chill Zone"],
+                      "activityMood": ["Cultural Infusion", "Date Night", "Chill Zone", "Cheap Thrills"],
                       "Field 15": "open daily 10AM-5PM",
                       "fakeDate": "2016-12-02T15:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0523736",
-                      "lng": "-87.6748991"
+                      "lng": "-87.6748991",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T15:00:00.000Z",
+                      "TimeEnd": "2016-12-03T01:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T03:55:11.000Z"
               },
@@ -241,21 +286,21 @@ angular
                       "name": "BrewLights",
                       "image": [
                         {
-                            "id": "attzT47trtFz01vxj",
-                            "url": "https://dl.airtable.com/o9vLlmz5StuyqztfLshw_brewlights.PNG",
-                            "filename": "brewlights.PNG",
-                            "size": 790221,
+                            "id": "attzawC8LdvPtCI3R",
+                            "url": "https://dl.airtable.com/od4X4e56Riu2GujW3VyG_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 3338366,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/66NxVdOvTMaJkJ1ao3F4_small_brewlights.PNG",
-                                    "width": 72,
+                                    "url": "https://dl.airtable.com/jifgqWUbR6eSPIBZNBmm_small_undefined.png",
+                                    "width": 48,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/A9gYSuwbT3gnl9cNpIFO_large_brewlights.PNG",
+                                    "url": "https://dl.airtable.com/3pzn7MQFQ4OFFbR9N4Lw_large_undefined.png",
                                     "width": 512,
-                                    "height": 357
+                                    "height": 512
                                 }
                             }
                         }
@@ -273,7 +318,12 @@ angular
                       "fakeDate": "2016-12-02T23:30:00.000Z",
                       "cost": "2",
                       "lat": "41.9187937",
-                      "lng": "-87.6376537"
+                      "lng": "-87.6376537",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-02T23:30:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T00:40:53.000Z"
               },
@@ -284,21 +334,21 @@ angular
                       "name": "Broadway - Finding Neverland",
                       "image": [
                         {
-                            "id": "attdedRkptxSoz2pO",
-                            "url": "https://dl.airtable.com/vlo9dUm6TgCoM64jlJYH_finding_neverland_broadway.jpg",
-                            "filename": "finding_neverland_broadway.jpg",
-                            "size": 43979,
-                            "type": "image/jpeg",
+                            "id": "att4hGtmzs3ixVbWa",
+                            "url": "https://dl.airtable.com/ZIlbw1YQGiUK0ghQz24F_blob",
+                            "filename": "blob",
+                            "size": 325772,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/jyFGTNipSzKGMVh82Fqo_small_finding_neverland_broadway.jpg",
-                                    "width": 23,
+                                    "url": "https://dl.airtable.com/Jf9pSLT5TKK2Vn8C9DKu_small_blob",
+                                    "width": 50,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/sEDMst0dQ7m6YgJ4wX4v_large_finding_neverland_broadway.jpg",
-                                    "width": 230,
-                                    "height": 355
+                                    "url": "https://dl.airtable.com/TaUu56fmSGC0FySIuB3B_large_blob",
+                                    "width": 512,
+                                    "height": 428
                                 }
                             }
                         }
@@ -316,7 +366,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "3",
                       "lat": "41.8843395",
-                      "lng": "-87.6350448"
+                      "lng": "-87.6350448",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T23:00:00.000Z",
+                      "TimeEnd": "2016-12-03T01:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T01:41:20.000Z"
               },
@@ -327,21 +382,21 @@ angular
                       "name": "Lycee French Market ",
                       "image": [
                         {
-                            "id": "attRHCiNFwnbjF7jw",
-                            "url": "https://dl.airtable.com/B96YrsZmQXmJf8ccjvua_lycee_french_markter.jpg",
-                            "filename": "lycee_french_markter.jpg",
-                            "size": 83852,
-                            "type": "image/jpeg",
+                            "id": "attbYWbo3RgVXlp0O",
+                            "url": "https://dl.airtable.com/XDMLGrYFTwWr5AMnyk4g_file.png",
+                            "filename": "file.png",
+                            "size": 506115,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/WQWlqqlaThyuCQIe4MQe_small_lycee_french_markter.jpg",
-                                    "width": 50,
+                                    "url": "https://dl.airtable.com/mm69euT1Qbz10w3a9cjS_small_file.png",
+                                    "width": 52,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/of6h8knZRn2apDfWO23W_large_lycee_french_markter.jpg",
+                                    "url": "https://dl.airtable.com/sFUxc5FaTqmLCsoWN20y_large_file.png",
                                     "width": 512,
-                                    "height": 500
+                                    "height": 419
                                 }
                             }
                         }
@@ -355,11 +410,16 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60640,
-                      "activityMood": ["Date Night", "Lone Wolf", "Family Fun", "Cultural Infusion", "Shop Til You Drop"],
+                      "activityMood": ["Date Night", "Lone Wolf", "Family Fun", "Cultural Infusion"],
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "2",
                       "lat": "41.9651243",
-                      "lng": "-87.67946"
+                      "lng": "-87.67946",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-05T21:23:42.000Z"
               },
@@ -401,8 +461,13 @@ angular
                       "Field 15": "The Navy Pier fireworks display on New Year’s Eve will take place at approximately 12:00 am.",
                       "fakeDate": "2016-12-03T05:59:00.000Z",
                       "cost": "4",
-                      "lat": "41.8917105",
-                      "lng": "-87.6106694"
+                      "lat": "41.8916948",
+                      "lng": "-87.609196",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T05:00:00.000Z",
+                      "TimeEnd": "2016-12-03T06:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:17:29.000Z"
               },
@@ -432,7 +497,7 @@ angular
                             }
                         }
                       ],
-                      "dateTime": "2016-11-09T23:00:00.000Z",
+                      "dateTime": "2016-12-05T23:00:00.000Z",
                       "desc": "A primer on startups addressing company formation, funding, creating an elevator pitch and pitch deck and how VCs assess opportunities and develop investment memos. Presented by Osage Partners, a venture capital fund that invests exclusively in startups that are commercializing university research.",
                       "energyLevel": 3,
                       "price": ["$0.00"],
@@ -441,11 +506,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Mad Skillz", "Cultural Infusion", "Lone Wolf"],
+                      "activityMood": ["Mad Skillz", "Cultural Infusion", "Lone Wolf", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T23:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0597864",
-                      "lng": "-87.6751549"
+                      "lng": "-87.6751549",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T23:00:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-08T02:13:21.000Z"
               },
@@ -453,7 +523,7 @@ angular
                   "id": "recAukUaYOn7r17RB",
                   "fields": {
                       "UniqueID": 44,
-                      "name": "Shark Tank Alumni Mark Doyle of Rent Like a Champion",
+                      "name": "Shark Tank's: Mark Doyle",
                       "image": [
                         {
                             "id": "attBTS7na0K8rcY5R",
@@ -473,9 +543,28 @@ angular
                                     "height": 263
                                 }
                             }
+                        },
+                        {
+                            "id": "attwbyeFfXtcmhulp",
+                            "url": "https://dl.airtable.com/bmzHMv7eSfyCa0YglaLJ_blob",
+                            "filename": "blob",
+                            "size": 563587,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/vorwZ7rLScCq8gfy7wqU_small_blob",
+                                    "width": 57,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/OvZcbdKhTEKh0Cud19ZH_large_blob",
+                                    "width": 512,
+                                    "height": 496
+                                }
+                            }
                         }
                       ],
-                      "dateTime": "2016-11-23T01:00:00.000Z",
+                      "dateTime": "2016-12-06T01:00:00.000Z",
                       "desc": "Mike Doyle, CEO of Rent Like a Champion and alumni of ABC’s Shark Tank will be appearing on a guest panel to discuss his experiences on the show. Rent Like a Champion secured a deal with renowned investors Mark Cuban and Chris Sacca as a result of their appearance on the show. The panel will talk through some accounting topics related to their journey, as well as the Shark Tank experience and what it has meant for their business.",
                       "energyLevel": 3,
                       "price": ["$0.00"],
@@ -484,11 +573,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Mad Skillz", "Cultural Infusion", "Lone Wolf"],
+                      "activityMood": ["Mad Skillz", "Cultural Infusion", "Lone Wolf", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0597864",
-                      "lng": "-87.6751549"
+                      "lng": "-87.6751549",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T02:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-08T02:23:31.000Z"
               },
@@ -516,9 +610,28 @@ angular
                                     "height": 512
                                 }
                             }
+                        },
+                        {
+                            "id": "attkV07d01V1jScfG",
+                            "url": "https://dl.airtable.com/G9FmZwpGRoaAf1Hj9ayR_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2171245,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/OicggysASvmKXpDljUXJ_small_undefined.png",
+                                    "width": 43,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/8oBZSLbmQ227sWemrVYw_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
-                      "dateTime": "2016-12-05T18:00:00.000Z",
+                      "dateTime": "2016-12-05T20:00:00.000Z",
                       "desc": "Dress your pup for a great dog event! Snowy activities include a treat hunt, agility course, photos with Santa, free play area and a costume contest. All Ages,",
                       "energyLevel": 4,
                       "price": ["$5.00"],
@@ -526,12 +639,17 @@ angular
                       "address": "220 E. Weathersfield Way",
                       "city": "Schaumburg",
                       "state": "Illinois",
-                      "activityMood": ["Family Fun"],
+                      "zip": 60159,
+                      "activityMood": ["Family Fun", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T18:00:00.000Z",
                       "cost": "1",
-                      "lat": "41.9396064",
-                      "lng": "-87.6593678",
-                      "zip": 60159
+                      "lat": "42.0169553",
+                      "lng": "-88.0761861",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-02T18:00:00.000Z",
+                      "TimeEnd": "2016-12-02T20:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:09:56.000Z"
               },
@@ -539,22 +657,22 @@ angular
                   "id": "recBCgwjI96OirlBV",
                   "fields": {
                       "UniqueID": 12,
-                      "name": "Northbrook Symphony Orchestra: The Glory Of Christmas",
+                      "name": "The Glory Of Christmas",
                       "image": [
                         {
-                            "id": "attP3vfDUU8pCHyi2",
-                            "url": "https://dl.airtable.com/iWOTVHYmSicfrVn15WSO_northbrooksymphony.jpg",
-                            "filename": "northbrooksymphony.jpg",
-                            "size": 916784,
-                            "type": "image/jpeg",
+                            "id": "attBYPMVVZThLI46G",
+                            "url": "https://dl.airtable.com/T5GDNlU9TanBBRYZG6DX_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 4262395,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/gmjRg73bSbWc5pWAnceD_small_northbrooksymphony.jpg",
-                                    "width": 89,
+                                    "url": "https://dl.airtable.com/X8OUrTfQNKtBLLOKbtOZ_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/uUGq5LWxTN2ntUHre9Ry_large_northbrooksymphony.jpg",
+                                    "url": "https://dl.airtable.com/GWxXn0m1SSa6wdnQmw7k_large_undefined.png",
                                     "width": 512,
                                     "height": 512
                                 }
@@ -562,7 +680,7 @@ angular
                         }
                       ],
                       "dateTime": "2016-12-04T21:00:00.000Z",
-                      "desc": "Featuring the first-ever concert performance of the Christmas Piano Concertos of George Greeley (1959) with John Goodwin, guest pianist. Also, featuring 'The Festive Sounds of Hanukah' and other Holiday Favorites.",
+                      "desc": "Northbrook Symphony Orchestra. Featuring the first-ever concert performance of the Christmas Piano Concertos of George Greeley (1959) with John Goodwin, guest pianist. Also, featuring 'The Festive Sounds of Hanukah' and other Holiday Favorites.",
                       "energyLevel": 2,
                       "price": ["$35.00"],
                       "eventURL": "http://northbrooksymphony.org/event/glory-of-christmas-1st-performance/",
@@ -574,7 +692,12 @@ angular
                       "fakeDate": "2016-12-02T21:00:00.000Z",
                       "cost": "2",
                       "lat": "42.1195926",
-                      "lng": "-87.8091357"
+                      "lng": "-87.8091357",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T21:00:00.000Z",
+                      "TimeEnd": "2016-12-02T11:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:43:20.000Z"
               },
@@ -582,7 +705,7 @@ angular
                   "id": "recBH7mpUBXNSQE1z",
                   "fields": {
                       "UniqueID": 30,
-                      "name": "Dennis J. Leise CD Release",
+                      "name": "Dennis Leise Release",
                       "image": [
                         {
                             "id": "attr5zFwzxvoc1kDE",
@@ -612,12 +735,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60608,
-                      "activityMood": ["Cultural Infusion"],
+                      "activityMood": ["Cultural Infusion", "Cheap Thrills"],
                       "Field 15": "7-930",
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "1",
                       "lat": "41.857778",
-                      "lng": "-87.656753"
+                      "lng": "-87.656753",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T03:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:29:38.000Z"
               },
@@ -625,30 +753,30 @@ angular
                   "id": "recCmn0Moo1D29YiX",
                   "fields": {
                       "UniqueID": 58,
-                      "name": "Ringling Brothers and Barnum & Bailey Presents Out Of this World",
+                      "name": "Out Of this World",
                       "image": [
                         {
-                            "id": "attOZPv09lXFxWYWf",
-                            "url": "https://dl.airtable.com/Xk2AwLyQ6eX4mK214aWs_CircusBanner.jpg",
-                            "filename": "CircusBanner.jpg",
-                            "size": 124712,
-                            "type": "image/jpeg",
+                            "id": "attRf1kO5EiKGVIfv",
+                            "url": "https://dl.airtable.com/UyHawp8USG2GqjqjXJfG_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 3081199,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/t6kJam2aTzqgZx3aIRfh_small_CircusBanner.jpg",
-                                    "width": 110,
+                                    "url": "https://dl.airtable.com/0p2u4krHQE6FHZZUnpJK_small_undefined.png",
+                                    "width": 64,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/F6fPrFHTAaWSGQq4nINS_large_CircusBanner.jpg",
+                                    "url": "https://dl.airtable.com/jJ4T5qkTMOzx0QS5bNqg_large_undefined.png",
                                     "width": 512,
-                                    "height": 312
+                                    "height": 512
                                 }
                             }
                         }
                       ],
-                      "dateTime": "2016-11-11T01:00:00.000Z",
-                      "desc": "Circus",
+                      "dateTime": "2016-12-11T01:00:00.000Z",
+                      "desc": "Circus presented by Ringling Brothers & Barnum & Bailey",
                       "energyLevel": 3,
                       "eventURL": "http://www.ticketmaster.com/Ringling-Bros-and-Barnum-Bailey-tickets/artist/2235332",
                       "address": "6920 Manheim Road",
@@ -659,7 +787,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "2",
                       "lat": "42.0053209",
-                      "lng": "-87.8899828"
+                      "lng": "-87.8899828",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T03:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T00:58:30.000Z"
               },
@@ -667,7 +800,7 @@ angular
                   "id": "recCynmoamd6zBI1Z",
                   "fields": {
                       "UniqueID": 48,
-                      "name": "1-night Painting, Holiday Wishes",
+                      "name": "1-night Painting",
                       "image": [
                         {
                             "id": "attLObUnQEtsrWNxQ",
@@ -701,7 +834,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "2",
                       "lat": "41.8773766",
-                      "lng": "-87.703072"
+                      "lng": "-87.703072",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T01:13:42.000Z"
               },
@@ -709,7 +847,7 @@ angular
                   "id": "recDBaknMP9I4vK3M",
                   "fields": {
                       "UniqueID": 6,
-                      "name": "Broadway - A Charlie Brown Christmas",
+                      "name": "Charlie Brown Christmas",
                       "image": [
                         {
                             "id": "attb1VGyGQmOAHXG3",
@@ -744,7 +882,12 @@ angular
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "3",
                       "lat": "41.898025",
-                      "lng": "-87.6251047"
+                      "lng": "-87.6251047",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-02T18:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:02:40.000Z"
               },
@@ -752,7 +895,7 @@ angular
                   "id": "recDXQV8szanNQBVY",
                   "fields": {
                       "UniqueID": 55,
-                      "name": "Bienen Contemporary/Early Vocal Ensemble and Callipygian Players: Handel’s Messiah",
+                      "name": "Handel’s Messiah",
                       "image": [
                         {
                             "id": "attDc5HvESBEltg8y",
@@ -783,11 +926,16 @@ angular
                       "city": "Evanston ",
                       "state": "Illinois",
                       "zip": 60208,
-                      "activityMood": ["Date Night", "Cultural Infusion"],
+                      "activityMood": ["Date Night", "Cultural Infusion", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:30:00.000Z",
                       "cost": "1",
                       "lat": "42.0505661",
-                      "lng": "-87.6827749"
+                      "lng": "-87.6827749",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T01:30:00.000Z",
+                      "TimeEnd": "2016-12-03T02:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T02:52:56.000Z"
               },
@@ -815,6 +963,25 @@ angular
                                     "height": 400
                                 }
                             }
+                        },
+                        {
+                            "id": "attVvOGanAcgAutTL",
+                            "url": "https://dl.airtable.com/rqpTZ2DoSK5oUIdsM0WC_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2059159,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/9gohiPXQWv1f7uQr7RgX_small_undefined.png",
+                                    "width": 54,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/zCiwroQuQgeTrJlfsHMJ_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
                       "dateTime": "2016-12-03T01:00:00.000Z",
@@ -830,7 +997,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "4",
                       "lat": "41.8806508",
-                      "lng": "-87.6763415"
+                      "lng": "-87.6763415",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T01:12:49.000Z"
               },
@@ -838,24 +1010,24 @@ angular
                   "id": "recDtS3tK8ZKW0oUU",
                   "fields": {
                       "UniqueID": 46,
-                      "name": "National Theatre Live Encore: War Horse",
+                      "name": "Live Theatre: War Horse",
                       "image": [
                         {
-                            "id": "attKVGK8VtPl7rrs2",
-                            "url": "https://dl.airtable.com/LlVITEeQxUgeU86mDPQQ_War_Horse_-_National_Theatre_Live.jpg",
-                            "filename": "War_Horse_-_National_Theatre_Live.jpg",
-                            "size": 14039,
-                            "type": "image/jpeg",
+                            "id": "attiog0tkgWogfbuY",
+                            "url": "https://dl.airtable.com/ug1LP8n2RHOJTCkQICXp_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 4436599,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/hUj66EFTjCz3zn5JbqPy_small_War_Horse_-_National_Theatre_Live.jpg",
-                                    "width": 64,
+                                    "url": "https://dl.airtable.com/9Y24fsHhQjClcgm0aSMz_small_undefined.png",
+                                    "width": 52,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/ZwToDZOcTEy6kSVIZNRx_large_War_Horse_-_National_Theatre_Live.jpg",
-                                    "width": 330,
-                                    "height": 185
+                                    "url": "https://dl.airtable.com/nKYaG4dTBTr15mCyDdwA_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
                                 }
                             }
                         }
@@ -869,11 +1041,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Cultural Infusion"],
+                      "activityMood": ["Cultural Infusion", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "1",
                       "lat": "42.0527667",
-                      "lng": "-87.673995"
+                      "lng": "-87.673995",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T03:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-08T05:52:50.000Z"
               },
@@ -912,11 +1089,16 @@ angular
                       "city": "Evanston ",
                       "state": "Illinois",
                       "zip": 60208,
-                      "activityMood": ["Family Fun", "Date Night"],
+                      "activityMood": ["Family Fun", "Date Night", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "0",
                       "lat": "42.057478",
-                      "lng": "-87.6780385"
+                      "lng": "-87.6780385",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T03:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T02:23:51.000Z"
               },
@@ -924,29 +1106,29 @@ angular
                   "id": "recF42wKRDWlEHMbr",
                   "fields": {
                       "UniqueID": 13,
-                      "name": "Chicago Bears vs. San Francisco 49ers ",
+                      "name": "Bears vs. 49ers ",
                       "image": [
                         {
-                            "id": "attFgwjFGvr1L2Vfv",
-                            "url": "https://dl.airtable.com/W6ghXEOsQqSck7HvTEqY_bearsgame.PNG",
-                            "filename": "bearsgame.PNG",
-                            "size": 241369,
+                            "id": "attkhU4dUBrmd2jX0",
+                            "url": "https://dl.airtable.com/Ju29xtuRL6OUm8CJqsrp_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 10495447,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/pY6OB6cCRWCZYLAsGfww_small_bearsgame.PNG",
-                                    "width": 96,
+                                    "url": "https://dl.airtable.com/r47erJWcQJGTxRfEGs0q_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/WRSHrc3BRNKwpZ8Cmt8h_large_bearsgame.PNG",
+                                    "url": "https://dl.airtable.com/0yjdjhIuR0mn63RpS9Sk_large_undefined.png",
                                     "width": 512,
-                                    "height": 239
+                                    "height": 512
                                 }
                             }
                         }
                       ],
-                      "dateTime": "2016-12-04T18:00:00.000Z",
+                      "dateTime": "2016-12-04T22:00:00.000Z",
                       "desc": "Watch the NFL Chicago Bears play a game at Soldier Field against the San Francisco 49ers ",
                       "energyLevel": 5,
                       "price": ["$120.00"],
@@ -959,7 +1141,12 @@ angular
                       "fakeDate": "2016-12-02T18:00:00.000Z",
                       "cost": "4",
                       "lat": "41.8622686",
-                      "lng": "-87.6188269"
+                      "lng": "-87.6188269",
+                      "EnergyMin": 4,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T18:00:00.000Z",
+                      "TimeEnd": "2016-12-02T18:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T00:20:50.000Z"
               },
@@ -970,21 +1157,21 @@ angular
                       "name": "Santa Hustle Chicago",
                       "image": [
                         {
-                            "id": "atttRtOaxlBHW27aj",
-                            "url": "https://dl.airtable.com/ogCzer9HQRivuJnBlbwT_santa_hustle.jpg",
-                            "filename": "santa_hustle.jpg",
-                            "size": 22500,
-                            "type": "image/jpeg",
+                            "id": "attFea1fT9XkSKBTg",
+                            "url": "https://dl.airtable.com/VaG6LmqORRCQVJ4ZDmRv_file.png",
+                            "filename": "file.png",
+                            "size": 1986493,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/AZZxWXXTSROeDQReSlue_small_santa_hustle.jpg",
+                                    "url": "https://dl.airtable.com/WEzBt16JReOcaqNxlJyp_small_file.png",
                                     "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/PHxIbkqeQ8a18J9rkTaj_large_santa_hustle.jpg",
-                                    "width": 345,
-                                    "height": 230
+                                    "url": "https://dl.airtable.com/vydgHB8uRUCJ6EUnvZOa_large_file.png",
+                                    "width": 512,
+                                    "height": 512
                                 }
                             }
                         }
@@ -1002,7 +1189,12 @@ angular
                       "fakeDate": "2016-12-02T15:00:00.000Z",
                       "cost": "3",
                       "lat": "42.117258",
-                      "lng": "-88.0531806"
+                      "lng": "-88.0531806",
+                      "EnergyMin": 8,
+                      "EnergyMax": 10,
+                      "TimeStart": "2016-12-02T15:00:00.000Z",
+                      "TimeEnd": "2016-12-02T16:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T21:41:13.000Z"
               },
@@ -1013,21 +1205,21 @@ angular
                       "name": "Hip Hop Nutcracker",
                       "image": [
                         {
-                            "id": "attMms6nWh5tRtdlC",
-                            "url": "https://dl.airtable.com/1smNsI3RSVyVyn5dQT3r_HipHopBanners1.jpg",
-                            "filename": "HipHopBanners1.jpg",
-                            "size": 74707,
-                            "type": "image/jpeg",
+                            "id": "att7CeJnRl87uzIg6",
+                            "url": "https://dl.airtable.com/lMhk8S3xQr6udpbrIf0w_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 1799117,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/5BKpDOhHTgiyLdNKnnGQ_small_HipHopBanners1.jpg",
-                                    "width": 110,
+                                    "url": "https://dl.airtable.com/rjNDijTTRtGyJqHoxQMJ_small_undefined.png",
+                                    "width": 64,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/JB4qUEn7SO6NSQZQcwpo_large_HipHopBanners1.jpg",
+                                    "url": "https://dl.airtable.com/JCUbuU8PTm6Fk7Ni9rDT_large_undefined.png",
                                     "width": 512,
-                                    "height": 312
+                                    "height": 512
                                 }
                             }
                         }
@@ -1044,7 +1236,12 @@ angular
                       "fakeDate": "2016-12-03T01:30:00.000Z",
                       "cost": "2",
                       "lat": "41.9762399",
-                      "lng": "-87.8665112"
+                      "lng": "-87.8665112",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-03T01:30:00.000Z",
+                      "TimeEnd": "2016-12-03T04:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:16:48.000Z"
               },
@@ -1055,21 +1252,21 @@ angular
                       "name": "Critical Mass",
                       "image": [
                         {
-                            "id": "attJVBePP1BgNJyxb",
-                            "url": "https://dl.airtable.com/ZiW4VMKyThOPKouppsKZ_14713595_1247980315222575_7093216098793438410_n.jpg",
-                            "filename": "14713595_1247980315222575_7093216098793438410_n.jpg",
-                            "size": 51150,
-                            "type": "image/jpeg",
+                            "id": "attB2GdkfK5NUbPF0",
+                            "url": "https://dl.airtable.com/Hur53earTFChgXgaTze5_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 1076417,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/GjgaJwB3R6rzmRRaLsfd_small_14713595_1247980315222575_7093216098793438410_n.jpg",
-                                    "width": 97,
+                                    "url": "https://dl.airtable.com/eKoSB0YwToePEVArUNG1_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/vWOjrFIQYugNK3omcPA0_large_14713595_1247980315222575_7093216098793438410_n.jpg",
+                                    "url": "https://dl.airtable.com/Pdxn3Du3TP2CDNxnIRwn_large_undefined.png",
                                     "width": 512,
-                                    "height": 264
+                                    "height": 512
                                 }
                             }
                         }
@@ -1083,12 +1280,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60602,
-                      "activityMood": ["Thrill Seeker", "Mad Skillz"],
+                      "activityMood": ["Thrill Seeker", "Mad Skillz", "Cheap Thrills"],
                       "Field 15": "Occurs the last friday of every month",
                       "fakeDate": "2016-12-02T23:30:00.000Z",
                       "cost": "0",
                       "lat": "41.8842641",
-                      "lng": "-87.6325324"
+                      "lng": "-87.6325324",
+                      "EnergyMin": 8,
+                      "EnergyMax": 10,
+                      "TimeStart": "2016-12-02T23:30:00.000Z",
+                      "TimeEnd": "2016-12-03T02:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:01:17.000Z"
               },
@@ -1096,7 +1298,7 @@ angular
                   "id": "recIfLucZxuDovLuA",
                   "fields": {
                       "UniqueID": 15,
-                      "name": "Second Fridays Gallery Night ",
+                      "name": "2nd Fridays Gallery Night ",
                       "image": [
                         {
                             "id": "atthpeHkB48m2B7VF",
@@ -1127,12 +1329,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60608,
-                      "activityMood": ["Cultural Infusion", "Lone Wolf", "Date Night", "Chill Zone"],
+                      "activityMood": ["Cultural Infusion", "Lone Wolf", "Date Night", "Cheap Thrills"],
                       "Field 15": "(occurs second Friday of Every month 6pm-10pm ",
                       "fakeDate": "2016-12-03T01:02:00.000Z",
                       "cost": "0",
                       "lat": "41.8555324",
-                      "lng": "-87.6486109"
+                      "lng": "-87.646795",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-03T00:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T00:50:54.000Z"
               },
@@ -1162,6 +1369,7 @@ angular
                             }
                         }
                       ],
+                      "dateTime": "2016-12-03T02:00:00.000Z",
                       "desc": "ComedySportz's interactive format is emceed by a referee overseeing a hilarious battle of wits between the home team, the blue Downtown Chicago Bosses, and the \"visiting\" red team, scored by live keyboard music and rocking popular music between scenes!  Using audience suggestions and willing volunteers, our professional players  create short games, scenes and songs on the spot, and the winner is determined by the Applause-o-Meter and your laughs!",
                       "energyLevel": 4,
                       "eventURL": "http://www.cszchicago.com/",
@@ -1173,7 +1381,12 @@ angular
                       "fakeDate": "2016-12-03T02:00:00.000Z",
                       "cost": "2",
                       "lat": "41.9396898",
-                      "lng": "-87.6548557"
+                      "lng": "-87.6548557",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T02:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:17:55.000Z"
               },
@@ -1181,7 +1394,7 @@ angular
                   "id": "recKDm8L1Fqq7Atcs",
                   "fields": {
                       "UniqueID": 56,
-                      "name": "Century 12 Evanston Theatre",
+                      "name": "Century 12 Theatre",
                       "image": [
                         {
                             "id": "att9Xj6CQXPRNgnLC",
@@ -1216,7 +1429,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "1",
                       "lat": "42.0490241",
-                      "lng": "-87.6865706"
+                      "lng": "-87.6865706",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T15:45:00.000Z",
+                      "TimeEnd": "2016-12-03T03:25:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T03:00:44.000Z"
               },
@@ -1227,25 +1445,26 @@ angular
                       "name": "SEEDCON",
                       "image": [
                         {
-                            "id": "attgokxN1QgVDZCLe",
-                            "url": "https://dl.airtable.com/8r6xThVQQCWeQtXmCFgv_site-logo.png",
-                            "filename": "site-logo.png",
-                            "size": 4946,
+                            "id": "attd9Q0hZqym6bQSY",
+                            "url": "https://dl.airtable.com/AHbx6UvwTjKVXwN4Febi_blob",
+                            "filename": "blob",
+                            "size": 39345,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/cec9Mx0lR8CCrlh8OQ7A_small_site-logo.png",
-                                    "width": 123,
+                                    "url": "https://dl.airtable.com/N6otoCgYSXeET0cTGnGV_small_blob",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/KrzYpf0qQXKmdiFTp7EJ_large_site-logo.png",
-                                    "width": 208,
-                                    "height": 61
+                                    "url": "https://dl.airtable.com/GNuFDYJjR2ByvOVd33Ul_large_blob",
+                                    "width": 512,
+                                    "height": 400
                                 }
                             }
                         }
                       ],
+                      "dateTime": "2016-12-02T16:30:00.000Z",
                       "desc": "Join the EVC group and the Polsky Center at the 17th annual SeedCon, Chicago Booth's annual entrepreneurship and venture capital conference. Through keynotes, workshops, panels, and networking, the conference provides exciting opportunities for entrepreneurs, investors, and those passionate about start-ups to network and build businesses together.",
                       "energyLevel": 5,
                       "eventURL": "https://www.chicagobooth.edu/alumni/events/showEvent?eventId=12570",
@@ -1257,7 +1476,12 @@ angular
                       "fakeDate": "2016-12-02T16:30:00.000Z",
                       "cost": "2",
                       "lat": "41.8740206",
-                      "lng": "-87.6269807"
+                      "lng": "-87.6269807",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-02T16:30:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:11:52.000Z"
               },
@@ -1296,11 +1520,16 @@ angular
                       "city": "Wilmette",
                       "state": "Illinois",
                       "zip": 60091,
-                      "activityMood": ["Date Night", "Family Fun"],
+                      "activityMood": ["Date Night", "Family Fun", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "1",
                       "lat": "42.0776816",
-                      "lng": "-87.7251164"
+                      "lng": "-87.7251164",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-03T03:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T02:17:37.000Z"
               },
@@ -1308,7 +1537,7 @@ angular
                   "id": "recNgeWlEGPZIiGZp",
                   "fields": {
                       "UniqueID": 63,
-                      "name": "You’re No One ’Til Somebody Hates You: Karen DeCrow and the Fight for Gender Equality",
+                      "name": "You’re No One ’Til...",
                       "image": [
                         {
                             "id": "att4HPMqN8Z494vBx",
@@ -1328,22 +1557,52 @@ angular
                                     "height": 110
                                 }
                             }
+                        },
+                        {
+                            "id": "attOjUJf64DYHueoA",
+                            "url": "https://dl.airtable.com/65BmJewfQLaTawGNS2rq_blob",
+                            "filename": "blob",
+                            "size": 246602,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/VOT2LRJrTVKKuZ5qcHHE_small_blob",
+                                    "width": 48,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/HD3Ncp4zQVCDT8YTtkJu_large_blob",
+                                    "width": 512,
+                                    "height": 398
+                                }
+                            }
                         }
                       ],
-                      "desc": "Here at the 50th anniversary of NOW, join Northwestern University Libraries as we celebrate DeCrow’s accomplishments with an exhibit drawn from her personal papers (which were donated to University Archives upon her death in 2014) and materials from our vast Femina Collections documenting the First and Second Wave liberation movements.",
+                      "dateTime": "2016-12-02T14:00:00.000Z",
+                      "desc": "Presented by Karen DeCrow and the Fight for Gender Equality. Here at the 50th anniversary of NOW, join Northwestern University Libraries as we celebrate DeCrow’s accomplishments with an exhibit drawn from her personal papers (which were donated to University Archives upon her death in 2014) and materials from our vast Femina Collections documenting the First and Second Wave liberation movements.",
                       "energyLevel": 1,
                       "eventURL": "http://planitpurple.northwestern.edu/event/502446",
                       "address": "1970 Campus Drive",
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Cultural Infusion"],
+                      "activityMood": ["Cultural Infusion", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T14:00:00.000Z",
                       "cost": "0",
                       "lat": "42.053532",
-                      "lng": "-87.6762547"
+                      "lng": "-87.6762547",
+                      "EnergyMin": 1,
+                      "EnergyMax": 2,
+                      "TimeStart": "2016-12-02T14:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:19:54.000Z"
+              },
+              {
+                  "id": "recQ2YkqrAK1nmsc5",
+                  "fields": { "UniqueID": 68 },
+                  "createdTime": "2016-11-23T01:29:34.000Z"
               },
               {
                   "id": "recRSX4qebkx3BU8V",
@@ -1369,6 +1628,25 @@ angular
                                     "height": 512
                                 }
                             }
+                        },
+                        {
+                            "id": "attJzmWA90FCilFYk",
+                            "url": "https://dl.airtable.com/ZkzOkg0LSpSd7ElfvPie_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2229660,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/kXIb2VqhSPOSBfhvBbWs_small_undefined.png",
+                                    "width": 54,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/icEaJ7V1SbyekkP9WeXv_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
                       "dateTime": "2016-12-21T20:30:00.000Z",
@@ -1384,7 +1662,12 @@ angular
                       "fakeDate": "2016-12-02T20:30:00.000Z",
                       "cost": "3",
                       "lat": "42.137228",
-                      "lng": "-87.7949026"
+                      "lng": "-87.7949026",
+                      "EnergyMin": 5,
+                      "EnergyMax": 7,
+                      "TimeStart": "2016-12-02T20:30:00.000Z",
+                      "TimeEnd": "2016-12-02T23:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T01:17:55.000Z"
               },
@@ -1392,7 +1675,7 @@ angular
                   "id": "recUZ8Uc3iDS2piwN",
                   "fields": {
                       "UniqueID": 20,
-                      "name": "The Simpsons in Chicago",
+                      "name": "Simpsons in Chicago",
                       "image": [
                         {
                             "id": "attPWf1htHwHWltPc",
@@ -1428,7 +1711,12 @@ angular
                       "fakeDate": "2016-12-02T21:00:00.000Z",
                       "cost": "2",
                       "lat": "41.929780",
-                      "lng": "-87.708933"
+                      "lng": "-87.708933",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T21:00:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:16:05.000Z"
               },
@@ -1472,15 +1760,71 @@ angular
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "2",
                       "lat": "42.047298",
-                      "lng": "-87.6837527"
+                      "lng": "-87.6837527",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-02T23:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T03:58:16.000Z"
+              },
+              {
+                  "id": "recWpqGUsy7jQxhAn",
+                  "fields": {
+                      "UniqueID": 66,
+                      "name": "MPD2 2017 Bash",
+                      "image": [
+                        {
+                            "id": "attgw9ccZR7NbaNa9",
+                            "url": "https://dl.airtable.com/GBF6K9yrRFWd3YXTMDvp_MPD%202017.jpg",
+                            "filename": "MPD 2017.jpg",
+                            "size": 49330,
+                            "type": "image/jpeg",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/bxfTD0uQBG8sTRge6Nuc_small_MPD%202017.jpg",
+                                    "width": 60,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/W996M6PiSruMcArn0skD_large_MPD%202017.jpg",
+                                    "width": 400,
+                                    "height": 240
+                                }
+                            }
+                        }
+                      ],
+                      "dateTime": "2016-12-02T22:00:00.000Z",
+                      "desc": "HAPPY HOUR COURTESY OF THE GREEN TEAM!  Please join your classmates at The Cellar to closeout the year for some Liquid Networking.  ",
+                      "energyLevel": 10,
+                      "eventURL": "http://thecellarevanston.com/",
+                      "address": "820 Clark St",
+                      "city": "Evanston",
+                      "state": "Illinois",
+                      "zip": 60201,
+                      "activityMood": ["Bottoms Up"],
+                      "fakeDate": "2016-12-02T22:00:00.000Z",
+                      "cost": "2",
+                      "lat": "42.0498078",
+                      "lng": "-87.6829285",
+                      "EnergyMin": 10,
+                      "EnergyMax": 10,
+                      "TimeStart": "2016-12-02T22:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z"
+                  },
+                  "createdTime": "2016-11-23T01:26:46.000Z"
+              },
+              {
+                  "id": "recXlrJAjR4pbNLaX",
+                  "fields": { "UniqueID": 69 },
+                  "createdTime": "2016-11-23T01:31:43.000Z"
               },
               {
                   "id": "recYzP1iceDGfvYRi",
                   "fields": {
                       "UniqueID": 28,
-                      "name": "Randolph Street Market Festival",
+                      "name": "Randolph Street Festival",
                       "image": [
                         {
                             "id": "attfZpC88FAlf9ylo",
@@ -1500,27 +1844,9 @@ angular
                                     "height": 422
                                 }
                             }
-                        },
-                        {
-                            "id": "attp6rXREGLRzAfkC",
-                            "url": "https://dl.airtable.com/rRH912jRBm3mdIKDE6ig_UN519LhVSuiO1vk0e1Mx_small_23958175390_7f7d91362a_b.jpg",
-                            "filename": "UN519LhVSuiO1vk0e1Mx_small_23958175390_7f7d91362a_b.jpg",
-                            "size": 2054,
-                            "type": "image/jpeg",
-                            "thumbnails": {
-                                "small": {
-                                    "url": "https://dl.airtable.com/ERHcsrHbSdSi642w6SVt_small_UN519LhVSuiO1vk0e1Mx_small_23958175390_7f7d91362a_b.jpg",
-                                    "width": 54,
-                                    "height": 36
-                                },
-                                "large": {
-                                    "url": "https://dl.airtable.com/KaDhMDQTHePrFz00gjDX_large_UN519LhVSuiO1vk0e1Mx_small_23958175390_7f7d91362a_b.jpg",
-                                    "width": 54,
-                                    "height": 36
-                                }
-                            }
                         }
                       ],
+                      "dateTime": "2016-12-03T02:43:00.000Z",
                       "desc": "This mega fair is an opportunity for serious crafters from around the country to sell their handmade arts and wares, and it's the perfect place to get extra special gifts, or maybe a little something for yourself in the process. \n\n250+ MAKERS AND MORE\nRenegade is a celebration of DIY spirit and for each Fair gathers new and seasoned independent Makers alike.\n\nStay tuned for our Roster line-up!\nParking is limited, so enjoy our free trolley! Pick-up services from Ashland Ave. Orange Line Stop begins at 10:30am. Last pick-up from Bridgeport Art Center at 6:30pm.\n\nNeed a ride? UBER has provided a code for a free $15 ride for all 1st time users for ALL 2016 RCF events! The code isRCF2016 and can be used for all Fairs!",
                       "energyLevel": 2,
                       "price": ["$0.00"],
@@ -1529,12 +1855,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60609,
-                      "activityMood": ["Family Fun", "Lone Wolf", "Shop Til You Drop", "Cultural Infusion"],
+                      "activityMood": ["Family Fun", "Lone Wolf", "Cultural Infusion", "Cheap Thrills"],
                       "Field 15": "Saturday December 3 2016 - Sunday December 4 2016 8am–12pm",
                       "fakeDate": "2016-12-03T02:43:00.000Z",
                       "cost": "0",
                       "lat": "41.831156",
-                      "lng": "-87.656709"
+                      "lng": "-87.656709",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T17:00:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:29:32.000Z"
               },
@@ -1577,7 +1908,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "2",
                       "lat": "41.9212019",
-                      "lng": "-87.6759077"
+                      "lng": "-87.6759077",
+                      "EnergyMin": 6,
+                      "EnergyMax": 8,
+                      "TimeStart": "2016-12-02T17:00:00.000Z",
+                      "TimeEnd": "2016-12-03T08:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T02:17:56.000Z"
               },
@@ -1586,28 +1922,28 @@ angular
                   "fields": {
                       "UniqueID": 7,
                       "name": "Zoo - Holiday Magic 2016",
-                      "dateTime": "2016-12-03T22:11:00.000Z",
                       "image": [
                         {
-                            "id": "attGy6UB5sg5vU4kj",
-                            "url": "http://3.bp.blogspot.com/-JLLcRr-nSmg/UarCJ98P0lI/AAAAAAAAcRw/PC3JClff7ac/s1600/IMG_5544.JPG",
-                            "filename": "whirlyball.jpg",
-                            "size": 1166595,
-                            "type": "image/jpeg",
+                            "id": "attrJVkZZo724Oxjj",
+                            "url": "https://dl.airtable.com/gJKEgRbR92yNEnVOF1CG_file.png",
+                            "filename": "file.png",
+                            "size": 2992069,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/eZ39fGhVSZ6uFdAyJfIu_small_whirlyball.jpg",
+                                    "url": "https://dl.airtable.com/UDjDn7oqShmGRc1LBFyr_small_file.png",
                                     "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/gRfz4m6QP67vxjV3PlcQ_large_whirlyball.jpg",
+                                    "url": "https://dl.airtable.com/JP192mkeTYOoo6Bc7A8X_large_file.png",
                                     "width": 512,
                                     "height": 512
                                 }
                             }
                         }
                       ],
+                      "dateTime": "2016-12-03T22:11:00.000Z",
                       "desc": "See the Lights. Feel the Magic. Continue the Tradition.",
                       "energyLevel": 5,
                       "price": ["$0.00"],
@@ -1616,11 +1952,16 @@ angular
                       "city": "Brookefield",
                       "state": "Illinois",
                       "zip": 60513,
-                      "activityMood": ["Date Night", "Family Fun", "Lone Wolf", "Chill Zone"],
+                      "activityMood": ["Date Night", "Family Fun", "Chill Zone", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T22:11:00.000Z",
                       "cost": "0",
                       "lat": "41.8353184",
-                      "lng": "-87.8343133"
+                      "lng": "-87.8343133",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-02T23:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:03:17.000Z"
               },
@@ -1663,7 +2004,12 @@ angular
                       "fakeDate": "2016-12-03T00:00:00.000Z",
                       "cost": "3",
                       "lat": "41.9679758",
-                      "lng": "-87.6899815"
+                      "lng": "-87.6899815",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-03T00:00:00.000Z",
+                      "TimeEnd": "2016-12-03T02:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-08T00:54:31.000Z"
               },
@@ -1691,25 +2037,6 @@ angular
                                     "height": 422
                                 }
                             }
-                        },
-                        {
-                            "id": "attWtLTqIYoq6NHhj",
-                            "url": "https://dl.airtable.com/vFGSsE7eTouJbg2mWKKz_23958175390_7f7d91362a_b.jpg",
-                            "filename": "23958175390_7f7d91362a_b.jpg",
-                            "size": 370134,
-                            "type": "image/jpeg",
-                            "thumbnails": {
-                                "small": {
-                                    "url": "https://dl.airtable.com/UN519LhVSuiO1vk0e1Mx_small_23958175390_7f7d91362a_b.jpg",
-                                    "width": 54,
-                                    "height": 36
-                                },
-                                "large": {
-                                    "url": "https://dl.airtable.com/PnnoYA0rR6OoObA6w238_large_23958175390_7f7d91362a_b.jpg",
-                                    "width": 512,
-                                    "height": 512
-                                }
-                            }
                         }
                       ],
                       "dateTime": "2017-01-01T01:42:00.000Z",
@@ -1724,52 +2051,14 @@ angular
                       "fakeDate": "2016-12-03T01:42:00.000Z",
                       "cost": "4",
                       "lat": "41.8876984",
-                      "lng": "-87.6249604"
+                      "lng": "-87.6249604",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T06:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:29:28.000Z"
-              },
-              {
-                  "id": "recefowoBoZFVePym",
-                  "fields": {
-                      "UniqueID": 1,
-                      "name": "World Series Game 7",
-                      "image": [
-                        {
-                            "id": "attlFjXEUUJBhloDp",
-                            "url": "https://dl.airtable.com/GLxS4FzhSwKr6fXCcjw0_eqdhbus.jpg",
-                            "filename": "eqdhbus.jpg",
-                            "size": 103953,
-                            "type": "image/jpeg",
-                            "thumbnails": {
-                                "small": {
-                                    "url": "https://dl.airtable.com/Gcgw38M9RatvHRppv0Yc_small_eqdhbus.jpg",
-                                    "width": 38,
-                                    "height": 36
-                                },
-                                "large": {
-                                    "url": "https://dl.airtable.com/VvFlWJ9RDiec8UE9bJPt_large_eqdhbus.jpg",
-                                    "width": 512,
-                                    "height": 512
-                                }
-                            }
-                        }
-                      ],
-                      "dateTime": "2016-11-03T00:00:00.000Z",
-                      "desc": "Must win game for the Cubs and Indians and will determine who is the MLB World Champions for 2016\n",
-                      "energyLevel": 3,
-                      "price": ["$1", "000.00"],
-                      "eventURL": "http://cubs.mlb.com",
-                      "address": "1060 W Addison",
-                      "city": "Chicago",
-                      "state": "IL",
-                      "zip": 60613,
-                      "activityMood": ["Date Night", "Family Fun", "Thrill Seeker"],
-                      "fakeDate": "2016-11-03T00:00:00.000Z",
-                      "cost": "1",
-                      "lat": "41.9474576",
-                      "lng": "-87.6583228"
-                  },
-                  "createdTime": "2016-11-05T21:23:42.000Z"
               },
               {
                   "id": "recektGVM3nxSCM8x",
@@ -1795,8 +2084,28 @@ angular
                                     "height": 133
                                 }
                             }
+                        },
+                        {
+                            "id": "attol3SKcTTpkqVxm",
+                            "url": "https://dl.airtable.com/CbJZDfAgT5eNAg1svC0I_blob",
+                            "filename": "blob",
+                            "size": 427165,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/5x2UuavTSrSmhbvSmgHx_small_blob",
+                                    "width": 54,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/xe0JFGvHTImbCX6osKrt_large_blob",
+                                    "width": 512,
+                                    "height": 506
+                                }
+                            }
                         }
                       ],
+                      "dateTime": "2016-12-03T01:00:00.000Z",
                       "desc": "Students of The Harold Ramis Film School at The Second City Training Center in Chicago recently got a visit from bona fide comedy badass Paul Feig. If you live on a planet where there is no laugher, you might not be familiar with his copious list of credits, including creating cult TV fave Freaks and Geeks and, more recently, directing Bridesmaids, The Heat, and last summer’s Ghostbusters reboot.",
                       "energyLevel": 4,
                       "eventURL": "http://www.secondcity.com/paul-feig-harold-ramis-film-school",
@@ -1808,7 +2117,12 @@ angular
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "2",
                       "lat": "41.9115878",
-                      "lng": "-87.6372294"
+                      "lng": "-87.6372294",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:13:22.000Z"
               },
@@ -1819,19 +2133,19 @@ angular
                       "name": "Sketchbook Brewing Company",
                       "image": [
                         {
-                            "id": "attvkq9sT2MDLi4Kf",
-                            "url": "https://dl.airtable.com/A2CqoSu9Tber6qTDx8os_taproom.jpeg",
-                            "filename": "taproom.jpeg",
-                            "size": 137080,
-                            "type": "image/jpeg",
+                            "id": "attbD3C9yJG3s1Jiv",
+                            "url": "https://dl.airtable.com/mv7KlSomRWmbprcqU50G_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 15659253,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/mB7AZCG2Rc6UJzezO2lS_small_taproom.jpeg",
-                                    "width": 56,
+                                    "url": "https://dl.airtable.com/FS8UckbYTyqclmBgrOym_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/uIF1XqvSvCTVucdE0cMk_large_taproom.jpeg",
+                                    "url": "https://dl.airtable.com/CX31wqCTSeAUTcUtgDVo_large_undefined.png",
                                     "width": 512,
                                     "height": 512
                                 }
@@ -1850,7 +2164,12 @@ angular
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "2",
                       "lat": "42.0329473",
-                      "lng": "-87.6809998"
+                      "lng": "-87.6809998",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T18:00:00.000Z",
+                      "TimeEnd": "2016-12-03T05:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T04:01:51.000Z"
               },
@@ -1858,7 +2177,7 @@ angular
                   "id": "recgAhZUtrpbN6fXJ",
                   "fields": {
                       "UniqueID": 64,
-                      "name": "Keep the Shadow, Ere the Substance Fade: Mourning during the AIDS Crisis",
+                      "name": "Keep the Shadow...",
                       "image": [
                         {
                             "id": "att8CErL89ra7cFgr",
@@ -1878,20 +2197,45 @@ angular
                                     "height": 110
                                 }
                             }
+                        },
+                        {
+                            "id": "att48t777fkgQrL9B",
+                            "url": "https://dl.airtable.com/hMveaRdQODmZmczLOGQK_blob",
+                            "filename": "blob",
+                            "size": 502913,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/HYAdbJfNRucGEW1aRoJG_small_blob",
+                                    "width": 48,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/BjVWquMQSl67Jf7Yu5ZH_large_blob",
+                                    "width": 512,
+                                    "height": 398
+                                }
+                            }
                         }
                       ],
-                      "desc": "During much of the 20th century, death was a private and comparatively silent event. However, during the HIV/AIDS crisis in the 1980s and 90s, a politicized resurgence of highly visible and public acts of mourning emphasized the body ravaged by the virus. In some ways, these practices paralleled the public and material mourning practices of the nineteenth century. ",
+                      "dateTime": "2016-12-02T14:00:00.000Z",
+                      "desc": "Mourning during the AIDS Crisis. During much of the 20th century, death was a private and comparatively silent event. However, during the HIV/AIDS crisis in the 1980s and 90s, a politicized resurgence of highly visible and public acts of mourning emphasized the body ravaged by the virus. In some ways, these practices paralleled the public and material mourning practices of the nineteenth century. ",
                       "energyLevel": 1,
                       "eventURL": "http://planitpurple.northwestern.edu/event/498594",
                       "address": "1970 Campus Drive",
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Mad Skillz", "Cultural Infusion"],
+                      "activityMood": ["Mad Skillz", "Cultural Infusion", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T14:00:00.000Z",
                       "cost": "0",
                       "lat": "42.053532",
-                      "lng": "-87.6762547"
+                      "lng": "-87.6762547",
+                      "EnergyMin": 1,
+                      "EnergyMax": 2,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-03T02:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:30:51.000Z"
               },
@@ -1930,11 +2274,16 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Shop Til You Drop", "Chill Zone", "Lone Wolf"],
+                      "activityMood": ["Chill Zone", "Lone Wolf", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T21:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0466051",
-                      "lng": "-87.6851874"
+                      "lng": "-87.6851874",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T21:00:00.000Z",
+                      "TimeEnd": "2016-12-03T01:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T04:18:43.000Z"
               },
@@ -1942,24 +2291,24 @@ angular
                   "id": "recjJMPfiFhKjHznq",
                   "fields": {
                       "UniqueID": 21,
-                      "name": "8th annual Houndstooth Ball",
+                      "name": "Annual Houndstooth Ball",
                       "image": [
                         {
-                            "id": "attVrZ3AVdo2vPSFe",
-                            "url": "https://dl.airtable.com/UQVTUX1YToGgHiAXGvMq_14479794_10154046579703178_6776180777476353879_n%20(1).png",
-                            "filename": "14479794_10154046579703178_6776180777476353879_n (1).png",
-                            "size": 258914,
+                            "id": "attaFe1BxM55zJwz4",
+                            "url": "https://dl.airtable.com/mtwaBmQDRuWJed7JwJky_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 9654779,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/IZgriLVmTbiWxBTWMplm_small_14479794_10154046579703178_6776180777476353879_n%20(1).png",
-                                    "width": 97,
+                                    "url": "https://dl.airtable.com/u4rHHNWMSgiMtXwel6Gq_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/oU58eeATTMOXDwxcMTX7_large_14479794_10154046579703178_6776180777476353879_n%20(1).png",
+                                    "url": "https://dl.airtable.com/aYNBKvKTvCIOqxkWwHFQ_large_undefined.png",
                                     "width": 512,
-                                    "height": 315
+                                    "height": 512
                                 }
                             }
                         }
@@ -1976,8 +2325,13 @@ angular
                       "Field 15": "7-11",
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "4",
-                      "lat": "41.956052",
-                      "lng": "-87.673840"
+                      "lat": "41.973771",
+                      "lng": "-87.6759093",
+                      "EnergyMin": 3,
+                      "EnergyMax": 5,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T05:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:16:29.000Z"
               },
@@ -1985,7 +2339,7 @@ angular
                   "id": "recm3zZwtlLgWfzZa",
                   "fields": {
                       "UniqueID": 8,
-                      "name": "The Polar Express Union Station",
+                      "name": "The Polar Express ",
                       "image": [
                         {
                             "id": "attx6uKWWRWKvSa05",
@@ -2020,7 +2374,12 @@ angular
                       "fakeDate": "2016-12-02T18:00:00.000Z",
                       "cost": "3",
                       "lat": "41.8788582",
-                      "lng": "-87.6407518"
+                      "lng": "-87.6407518",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T17:00:00.000Z",
+                      "TimeEnd": "2016-12-02T18:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:03:42.000Z"
               },
@@ -2028,24 +2387,24 @@ angular
                   "id": "recmVcQDLb1lnDIeV",
                   "fields": {
                       "UniqueID": 22,
-                      "name": "Richard Cheese in Chicago - Friday December 2, 2016 - Thalia Hall",
+                      "name": "Richard Cheese, Chicago",
                       "image": [
                         {
-                            "id": "att85gSBLvF1WYgxy",
-                            "url": "https://dl.airtable.com/8qXRiZYvTAu0CJZqZYSh_14729114_10154098475742901_3258024774770112907_n.jpg",
-                            "filename": "14729114_10154098475742901_3258024774770112907_n.jpg",
-                            "size": 67525,
-                            "type": "image/jpeg",
+                            "id": "att15dXDEpmqsbswV",
+                            "url": "https://dl.airtable.com/VlOQ6KbhRJ6rQsbOsRoY_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2062533,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/idhgcz2SkmNtuSgh2K6A_small_14729114_10154098475742901_3258024774770112907_n.jpg",
-                                    "width": 97,
+                                    "url": "https://dl.airtable.com/nmSCgrZrTLSrm3DP171t_small_undefined.png",
+                                    "width": 50,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/wVo0A6yR9yB4SMOrUGmQ_large_14729114_10154098475742901_3258024774770112907_n.jpg",
+                                    "url": "https://dl.airtable.com/pXVlftV8TUCLqGxVtwnr_large_undefined.png",
                                     "width": 512,
-                                    "height": 315
+                                    "height": 512
                                 }
                             }
                         }
@@ -2062,8 +2421,13 @@ angular
                       "Field 15": "8-10-45",
                       "fakeDate": "2016-12-03T02:00:00.000Z",
                       "cost": "2",
-                      "lat": "41.857827",
-                      "lng": "-87.6597298"
+                      "lat": "41.857711",
+                      "lng": "-87.657320",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-03T02:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:45:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:16:39.000Z"
               },
@@ -2074,25 +2438,26 @@ angular
                       "name": "Senator Lightford",
                       "image": [
                         {
-                            "id": "attKzGDX75kWIKjek",
-                            "url": "https://dl.airtable.com/g8DJT6l0Qwqtgis2i9Cg_luc-logo.png",
-                            "filename": "luc-logo.png",
-                            "size": 12005,
+                            "id": "attXNbXW27RDE4xVG",
+                            "url": "https://dl.airtable.com/Jbod5JzwSJe5lVX7OIX9_blob",
+                            "filename": "blob",
+                            "size": 279392,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/2Do8DDQNRqSvRlAWzEdz_small_luc-logo.png",
-                                    "width": 164,
+                                    "url": "https://dl.airtable.com/4PiRMX9OQJ6DDtJNP3Wc_small_blob",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/IbkdGwSpTLyz9Hp1H5KZ_large_luc-logo.png",
-                                    "width": 305,
-                                    "height": 67
+                                    "url": "https://dl.airtable.com/Tw1Xo9HVSZ2N4eIxU3nx_large_blob",
+                                    "width": 512,
+                                    "height": 399
                                 }
                             }
                         }
                       ],
+                      "dateTime": "2016-12-03T01:00:00.000Z",
                       "desc": "As part of National Week of Action Against School Pushout, the Education Law & Policy Society (ELPS) and Stand Up For Each Other (SUFEO) are hosting an event discussion about Senate Bill 100 and the impact it is having in our schools, the school-to-prison pipeline, and the process of creating and passing legislation. Lunch will be provided!",
                       "energyLevel": 3,
                       "price": ["$0.00"],
@@ -2101,11 +2466,16 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60611,
-                      "activityMood": ["Mad Skillz"],
+                      "activityMood": ["Mad Skillz", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "0",
                       "lat": "41.8976813",
-                      "lng": "-87.6292303"
+                      "lng": "-87.6292303",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T18:00:00.000Z",
+                      "TimeEnd": "2016-12-02T19:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-10T01:05:20.000Z"
               },
@@ -2113,7 +2483,7 @@ angular
                   "id": "recnXme6dzWypjxl7",
                   "fields": {
                       "UniqueID": 38,
-                      "name": "Windy City Wine and Beer Tours",
+                      "name": "Windy City Wine & Beer Tours",
                       "image": [
                         {
                             "id": "attGJjcRs5uUQ7Zab",
@@ -2133,6 +2503,25 @@ angular
                                     "height": 396
                                 }
                             }
+                        },
+                        {
+                            "id": "attVQhJUIL7hHzPHz",
+                            "url": "https://dl.airtable.com/5grIv02JQK6QxK7wB7d1_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2555987,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/BJbWJR9uTRqB23Bsp6hJ_small_undefined.png",
+                                    "width": 64,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/yj5otbKNQp2z5B0caIbt_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
                       "dateTime": "2016-12-04T04:20:00.000Z",
@@ -2148,7 +2537,12 @@ angular
                       "fakeDate": "2016-12-03T04:20:00.000Z",
                       "cost": "4",
                       "lat": "41.9196997",
-                      "lng": "-87.7087705"
+                      "lng": "-87.7087705",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T17:00:00.000Z",
+                      "TimeEnd": "2016-12-02T21:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T04:08:07.000Z"
               },
@@ -2156,24 +2550,24 @@ angular
                   "id": "recowgiQG4Y0Fipk2",
                   "fields": {
                       "UniqueID": 33,
-                      "name": "Gingerbread Building for Charity",
+                      "name": "Gingerbreads for Charity",
                       "image": [
                         {
-                            "id": "attbsPbuZDGzIMa3Q",
-                            "url": "https://dl.airtable.com/0usqjGqfRZm8ZkE2mzH6_gingerbread%20house.jpg",
-                            "filename": "gingerbread house.jpg",
-                            "size": 85435,
-                            "type": "image/jpeg",
+                            "id": "attsNvZK11mUFfIEM",
+                            "url": "https://dl.airtable.com/3sNbB8pjT3aPOs7Rthku_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 4184159,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/IDXptnESoq5LPKov8V9Q_small_gingerbread%20house.jpg",
-                                    "width": 72,
+                                    "url": "https://dl.airtable.com/xbNMpRvQRPWmEfNaSVjd_small_undefined.png",
+                                    "width": 48,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/wTcmpgNT2KJRQ2U8FyAP_large_gingerbread%20house.jpg",
+                                    "url": "https://dl.airtable.com/M5jrwyrQSUaTYozwpUtu_large_undefined.png",
                                     "width": 512,
-                                    "height": 400
+                                    "height": 512
                                 }
                             }
                         }
@@ -2191,7 +2585,12 @@ angular
                       "fakeDate": "2016-12-02T21:00:00.000Z",
                       "cost": "2",
                       "lat": "41.8832439",
-                      "lng": "-87.6283934"
+                      "lng": "-87.6283934",
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T21:00:00.000Z",
+                      "TimeEnd": "2016-12-02T23:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T02:10:23.000Z"
               },
@@ -2202,21 +2601,21 @@ angular
                       "name": "SantaCon Chicago 2016",
                       "image": [
                         {
-                            "id": "att7d7CbQXCTE6YLG",
-                            "url": "https://dl.airtable.com/XOFHJB50TOGWyZuZSOGm_santacon.PNG",
-                            "filename": "santacon.PNG",
-                            "size": 469830,
+                            "id": "attCXw87axvKThQTu",
+                            "url": "https://dl.airtable.com/qZUfyPY3Rue7Qjt4zyi0_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2611785,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/j68KC1PRSeiNjpipGZji_small_santacon.PNG",
-                                    "width": 69,
+                                    "url": "https://dl.airtable.com/iOD4MSDToK6KoNhtlzTA_small_undefined.png",
+                                    "width": 55,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/L7O6kiTpSoy1Z3sGLiBg_large_santacon.PNG",
+                                    "url": "https://dl.airtable.com/zrKolybNSeGA33J5cztR_large_undefined.png",
                                     "width": 512,
-                                    "height": 293
+                                    "height": 512
                                 }
                             }
                         }
@@ -2230,11 +2629,16 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60605,
-                      "activityMood": ["Bottoms Up", "Night Owl"],
+                      "activityMood": ["Bottoms Up", "Night Owl", "Cheap Thrills"],
                       "fakeDate": "2016-12-02T18:00:00.000Z",
                       "cost": "0",
                       "lat": "41.8750619",
-                      "lng": "-87.6269963"
+                      "lng": "-87.6269963",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-02T18:00:00.000Z",
+                      "TimeEnd": "2016-12-03T06:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T02:05:02.000Z"
               },
@@ -2245,19 +2649,19 @@ angular
                       "name": "Holiday Tree Lighting",
                       "image": [
                         {
-                            "id": "attkGTmnQctlFRIf4",
-                            "url": "https://dl.airtable.com/WEMYG2zURsC0sR3sIrqR_treelighting.jpg",
-                            "filename": "treelighting.jpg",
-                            "size": 965024,
-                            "type": "image/jpeg",
+                            "id": "attqJwqaMOhBKus4m",
+                            "url": "https://dl.airtable.com/iFb4DLvJRPW7YZhwmjpx_file.png",
+                            "filename": "file.png",
+                            "size": 1814166,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/5i7Fs9OfT0OUorc3Md2I_small_treelighting.jpg",
+                                    "url": "https://dl.airtable.com/ttUZ5R5sTT61SqEnnNtc_small_file.png",
                                     "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/BJklJyqASqy00GIIymbT_large_treelighting.jpg",
+                                    "url": "https://dl.airtable.com/OMDn56xMSGiBE5iOoAxr_large_file.png",
                                     "width": 512,
                                     "height": 512
                                 }
@@ -2266,9 +2670,13 @@ angular
                       ],
                       "dateTime": "2016-12-03T01:00:00.000Z",
                       "price": ["$0.00"],
-                      "activityMood": ["Family Fun", "Date Night", "Lone Wolf"],
+                      "activityMood": ["Family Fun", "Date Night", "Lone Wolf", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
-                      "cost": "0"
+                      "cost": "0",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T01:00:00.000Z",
+                      "TimeEnd": "2016-12-03T02:00:00.000Z"
                   },
                   "createdTime": "2016-11-05T21:23:42.000Z"
               },
@@ -2276,24 +2684,24 @@ angular
                   "id": "recroGSzH2Tt0SH9R",
                   "fields": {
                       "UniqueID": 11,
-                      "name": "Symphony Orchestra Holiday Concert",
+                      "name": "Holiday Orchestra",
                       "image": [
                         {
-                            "id": "attfjxGk6k7MYVv0b",
-                            "url": "https://dl.airtable.com/POIvxOzgRZmOZsE9RF25_Evanston%20symphony.PNG",
-                            "filename": "Evanston symphony.PNG",
-                            "size": 339166,
+                            "id": "attzqcbBueWDQVAoH",
+                            "url": "https://dl.airtable.com/Jf0GZbEKRymRGKr9xP6O_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 12543901,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/GUIwQ3zaQcScGsawFEvf_small_Evanston%20symphony.PNG",
-                                    "width": 201,
+                                    "url": "https://dl.airtable.com/TYj9yS5R0up7wX0r1LgQ_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/uNQkIuVsS8yQjlWG3fbl_large_Evanston%20symphony.PNG",
+                                    "url": "https://dl.airtable.com/q4t43FjhSXCT0SgleGrO_large_undefined.png",
                                     "width": 512,
-                                    "height": 176
+                                    "height": 512
                                 }
                             }
                         }
@@ -2306,12 +2714,17 @@ angular
                       "address": "1600 Dodge Avenue",
                       "city": "Evanston",
                       "state": "Illinois",
+                      "zip": 60201,
                       "activityMood": ["Date Night", "Chill Zone", "Cultural Infusion"],
                       "fakeDate": "2016-12-02T21:00:00.000Z",
                       "cost": "2",
                       "lat": "42.046397",
                       "lng": "-87.7045007",
-                      "zip": 60201
+                      "EnergyMin": 1,
+                      "EnergyMax": 3,
+                      "TimeStart": "2016-12-02T21:00:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:26:51.000Z"
               },
@@ -2354,9 +2767,19 @@ angular
                       "fakeDate": "2016-12-03T02:30:00.000Z",
                       "cost": "3",
                       "lat": "41.9396064",
-                      "lng": "-87.6593678"
+                      "lng": "-87.6593678",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T02:30:00.000Z",
+                      "TimeEnd": "2016-12-03T04:30:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:09:09.000Z"
+              },
+              {
+                  "id": "recsy4udk960MXDTp",
+                  "fields": { "UniqueID": 67 },
+                  "createdTime": "2016-11-23T01:28:35.000Z"
               },
               {
                   "id": "rect5McGYne7oIpxv",
@@ -2365,19 +2788,19 @@ angular
                       "name": "Grosse Point Lighthouse",
                       "image": [
                         {
-                            "id": "atteapLvwHyWoaM43",
-                            "url": "https://dl.airtable.com/fVX2aj1WQ6i2Kchq70ha_o7_new.jpg",
-                            "filename": "o7_new.jpg",
-                            "size": 35038,
-                            "type": "image/jpeg",
+                            "id": "attaSbifPIYbFXeuI",
+                            "url": "https://dl.airtable.com/Wb97rm9HQ66WtaQJwd0M_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 6324915,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/RiCwGzBVTPWrrIbxitFH_small_o7_new.jpg",
-                                    "width": 24,
+                                    "url": "https://dl.airtable.com/9EDV6K8MTUGikWVIro6n_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/UC1KBXyzQciSFC1IXBLT_large_o7_new.jpg",
+                                    "url": "https://dl.airtable.com/YOYpRl3SPuCv1Y2bvyRw_large_undefined.png",
                                     "width": 512,
                                     "height": 512
                                 }
@@ -2393,12 +2816,17 @@ angular
                       "city": "Evanston",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Lone Wolf", "Cultural Infusion", "Chill Zone"],
+                      "activityMood": ["Lone Wolf", "Cultural Infusion", "Chill Zone", "Cheap Thrills"],
                       "Field 15": "open year round",
                       "fakeDate": "2016-12-02T13:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0639249",
-                      "lng": "-87.6785329"
+                      "lng": "-87.6785329",
+                      "EnergyMin": 1,
+                      "EnergyMax": 2,
+                      "TimeStart": "2016-12-02T13:00:00.000Z",
+                      "TimeEnd": "2016-12-02T22:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T02:31:43.000Z"
               },
@@ -2409,21 +2837,21 @@ angular
                       "name": "Bat 17",
                       "image": [
                         {
-                            "id": "attPVTn2Ce0QfPpnj",
-                            "url": "https://dl.airtable.com/rrh71KW0TbaHQUyGDz88_bat17.jpg",
-                            "filename": "bat17.jpg",
-                            "size": 84365,
-                            "type": "image/jpeg",
+                            "id": "attzZdAfevrRW9iSV",
+                            "url": "https://dl.airtable.com/VhOmGLAQ8uPOHyZW7j3i_blob",
+                            "filename": "blob",
+                            "size": 318307,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/wRccSbRd6d8Rd3MmQSOg_small_bat17.jpg",
-                                    "width": 124,
+                                    "url": "https://dl.airtable.com/qWZhWCDjT1usyADt35TC_small_blob",
+                                    "width": 53,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/Y2ihJZ5QaSBf6f6Tid09_large_bat17.jpg",
-                                    "width": 512,
-                                    "height": 232
+                                    "url": "https://dl.airtable.com/OvMKpmZdTS6MVUQnFaxF_large_blob",
+                                    "width": 480,
+                                    "height": 325
                                 }
                             }
                         }
@@ -2437,11 +2865,16 @@ angular
                       "city": "Evanston ",
                       "state": "Illinois",
                       "zip": 60201,
-                      "activityMood": ["Bottoms Up", "Mad Skillz", "Night Owl"],
+                      "activityMood": ["Bottoms Up", "Mad Skillz", "Night Owl", "Cheap Thrills"],
                       "fakeDate": "2016-12-03T01:00:00.000Z",
                       "cost": "0",
                       "lat": "42.0490241",
-                      "lng": "-87.6865706"
+                      "lng": "-87.6865706",
+                      "EnergyMin": 5,
+                      "EnergyMax": 7,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-03T07:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T03:07:14.000Z"
               },
@@ -2449,7 +2882,7 @@ angular
                   "id": "recu5FKF2nXUW0Fjz",
                   "fields": {
                       "UniqueID": 50,
-                      "name": "Museum of Science and Industry, Chicago",
+                      "name": "Museum of Sci. & Ind.",
                       "image": [
                         {
                             "id": "att5QKgIZcOfpArU2",
@@ -2469,6 +2902,25 @@ angular
                                     "height": 512
                                 }
                             }
+                        },
+                        {
+                            "id": "atti0i2WUWVZ2Fh8G",
+                            "url": "https://dl.airtable.com/uhI9SDrRRfZwNauW1Yxg_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 2606391,
+                            "type": "image/png",
+                            "thumbnails": {
+                                "small": {
+                                    "url": "https://dl.airtable.com/xwE6gDRqWDtaCEKVuUJg_small_undefined.png",
+                                    "width": 64,
+                                    "height": 36
+                                },
+                                "large": {
+                                    "url": "https://dl.airtable.com/dXZVDUPmQYa3HCxmZcIH_large_undefined.png",
+                                    "width": 512,
+                                    "height": 512
+                                }
+                            }
                         }
                       ],
                       "dateTime": "2016-12-02T20:30:00.000Z",
@@ -2484,7 +2936,12 @@ angular
                       "fakeDate": "2016-12-02T20:30:00.000Z",
                       "cost": "2",
                       "lat": "41.7906128",
-                      "lng": "-87.5852473"
+                      "lng": "-87.5852473",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-03T03:30:00.000Z",
+                      "TimeEnd": "2016-12-02T22:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-09T01:33:35.000Z"
               },
@@ -2514,19 +2971,19 @@ angular
                             }
                         },
                         {
-                            "id": "att9AP2OfiYmobseY",
-                            "url": "https://dl.airtable.com/PyGygWDXTe6l7EMaFfcj_Screen%20Shot%202016-11-06%20at%207.28.45%20PM.png",
-                            "filename": "Screen Shot 2016-11-06 at 7.28.45 PM.png",
-                            "size": 1656553,
+                            "id": "attIsOPGLjoi64tyB",
+                            "url": "https://dl.airtable.com/6AsmHv9xTDqVg6aHJWf4_blob",
+                            "filename": "blob",
+                            "size": 204579,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/h5DoeEnQEO6AdJkFLzly_small_Screen%20Shot%202016-11-06%20at%207.28.45%20PM.png",
-                                    "width": 73,
+                                    "url": "https://dl.airtable.com/b4YqEHqyQZ27729FpvhS_small_blob",
+                                    "width": 55,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/oAWuSiseS8G0ys0JZBlg_large_Screen%20Shot%202016-11-06%20at%207.28.45%20PM.png",
+                                    "url": "https://dl.airtable.com/OQqtOy14TuregHYhpph5_large_blob",
                                     "width": 512,
                                     "height": 512
                                 }
@@ -2544,8 +3001,13 @@ angular
                       "activityMood": ["Bottoms Up", "Thrill Seeker", "Night Owl"],
                       "fakeDate": "2016-12-02T16:00:00.000Z",
                       "cost": "3",
-                      "lat": "41.911138",
-                      "lng": "-87.6492029"
+                      "lat": "41.9094014",
+                      "lng": "-87.6384097",
+                      "EnergyMin": 6,
+                      "EnergyMax": 8,
+                      "TimeStart": "2016-12-02T16:00:00.000Z",
+                      "TimeEnd": "2016-12-03T00:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:17:08.000Z"
               },
@@ -2556,40 +3018,21 @@ angular
                       "name": "Adler After Dark",
                       "image": [
                         {
-                            "id": "attQ1zDTIrtUzivRV",
-                            "url": "https://dl.airtable.com/vN7SufDUSRO19xn3TmcQ_image%20(2).jpg",
-                            "filename": "image (2).jpg",
-                            "size": 71301,
-                            "type": "image/jpeg",
-                            "thumbnails": {
-                                "small": {
-                                    "url": "https://dl.airtable.com/qIW2iD9HRvSMCbdG6HbM_small_image%20(2).jpg",
-                                    "width": 64,
-                                    "height": 36
-                                },
-                                "large": {
-                                    "url": "https://dl.airtable.com/8ByN74SKRPqgITt9si1z_large_image%20(2).jpg",
-                                    "width": 512,
-                                    "height": 422
-                                }
-                            }
-                        },
-                        {
-                            "id": "attqBmfjZTBAmC0uf",
-                            "url": "https://dl.airtable.com/4TXFetT0RImRXf78MmKk_Screen-Shot-2016-02-15-at-2.31.29-PM.png",
-                            "filename": "Screen-Shot-2016-02-15-at-2.31.29-PM.png",
-                            "size": 941091,
+                            "id": "attIYM5qDo4Lu1eXg",
+                            "url": "https://dl.airtable.com/3JtFqFKTke22guER32kJ_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 18212395,
                             "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/ga6ZhImyTaWv9bVGw7Y3_small_Screen-Shot-2016-02-15-at-2.31.29-PM.png",
-                                    "width": 97,
+                                    "url": "https://dl.airtable.com/tx8Rgp4TGioH5vCAyeME_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/bHsOryxEQzeLw0uzWrpT_large_Screen-Shot-2016-02-15-at-2.31.29-PM.png",
+                                    "url": "https://dl.airtable.com/BxAOwCsATXakZNdyTwAa_large_undefined.png",
                                     "width": 512,
-                                    "height": 416
+                                    "height": 512
                                 }
                             }
                         }
@@ -2606,8 +3049,13 @@ angular
                       "Field 15": "6-10 pm",
                       "fakeDate": "2016-12-02T12:00:00.000Z",
                       "cost": "2",
-                      "lat": "41.866088",
-                      "lng": "-87.619588"
+                      "lat": "41.866337",
+                      "lng": "-87.6089716",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-03T00:00:00.000Z",
+                      "TimeEnd": "2016-12-03T04:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:29:36.000Z"
               },
@@ -2618,25 +3066,26 @@ angular
                       "name": "Zoo Lights",
                       "image": [
                         {
-                            "id": "att5GTZis3lEVhxqW",
-                            "url": "https://dl.airtable.com/r1ib1AEtT4mqtgvP7ttR_ZLPagePhoto.jpg",
-                            "filename": "ZLPagePhoto.jpg",
-                            "size": 238461,
-                            "type": "image/jpeg",
+                            "id": "attGT3SyxNhy8VW6n",
+                            "url": "https://dl.airtable.com/Hye2lXmETtKj2BciuqCQ_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 7187769,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/Dom36LnkRmO5gXVLMaWf_small_ZLPagePhoto.jpg",
-                                    "width": 83,
+                                    "url": "https://dl.airtable.com/qixogzkSfGi6GEmySN2g_small_undefined.png",
+                                    "width": 53,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/4AhQ8YqRbCxXwrfhIOSg_large_ZLPagePhoto.jpg",
+                                    "url": "https://dl.airtable.com/BXgwjEmCSPmlv7E3t9DD_large_undefined.png",
                                     "width": 512,
-                                    "height": 340
+                                    "height": 512
                                 }
                             }
                         }
                       ],
+                      "dateTime": "2016-12-03T02:43:00.000Z",
                       "desc": "Join us for the brilliance of this fun, free, family-oriented holiday celebration, featuring luminous displays and holiday-season activities throughout zoo grounds.\n\nFestive Activities\nPhotos with Santa through December 23\nFree crafts for children\nUnique educational chats\n3D displays\nWarm spiced wine and frosty lagers\nDelicious holiday snacks\nHoliday gift shopping\nLive ice-sculpture carving\nCarousel and train rides\nMusical light shows\n3D holiday specs while supplies last!\nSpecial Events\nZooLights Opening Night\nFriday, November 25\nHelp us flip the switch! At 4:25 p.m. join a lighting ceremony next to Café at Wild Things to kick off the festivities.\n\nHoliday Market\nTuesday, November 29\nDon’t miss the wildest holiday-shopping fair in the city! The zoo’s first-ever Holiday Market will feature more than 30 amazing artisan vendors throughout zoo grounds during ZooLights. Please note: only those with tickets will be allowed entry to the zoo this evening.\n6:30–10 p.m.\nFor participants of all ages\n$10 ($8 for Lincoln Park Zoo members)\nBuy tickets to the Holiday Market\n\nBrewLights Presented By Louis Glunz Beer\nThursday, December 1\nJoin Louis Glunz Beer and the Auxiliary Board of Lincoln Park Zoo for a craft-beer fest during ZooLights! Enjoy local craft, seasonal and international beers on tap throughout the zoo. Please note: only those with tickets will be allowed entry to the zoo this evening.\n5:30 p.m.–9 p.m.\nFor participants ages 21 and older\n$40–$60\nBuy tickets to BrewLights Presented By Louis Glunz Beer\n\nAdults Night Out at ZooLights\nWednesday, December 7\nEnjoy the brilliance of ZooLights minus the kids and crowds and with a beer in hand! This adults-only event features animal chats and enrichment viewings, a live band and food and drinks available for purchase. Please note: only those with tickets will be allowed entry to the zoo this evening.\n6:30 p.m.–10 p.m.\nFor participants ages 18 and older\n$15 ($12 for Lincoln Park Zoo members)\nBuy tickets to Adults Night Out at ZooLights\n\nMembers-Only Night at ZooLights Presented By Kalahari Resorts and Conventions\nThursday, December 8\nLincoln Park Zoo members and their guests get exclusive access to ZooLights as well as free skate rental and ice time at the Farm-in-the-Zoo!\n4:30–9 p.m.\nFor Lincoln Park Zoo members and their guests\nLearn more about Members-Only Night at ZooLights\n\nThe Chris White Trio Tribute to “A Charlie Brown Christmas”\nThursday, December 15\nSnap your fingers and sing along to this jazzy take on one of the season’s classic soundtracks. Please note: this is a ticketed event that takes place at Café Brauer during ZooLights.\n$25 ($20 for Lincoln Park Zoo members); VIP upgrade: $40\nFor participants of all ages\nBuy tickets to Charlie Brown Christmas Tribute\n\nNew Year’s Eve at ZooLights\nSaturday, December 31\nCelebrate New Year’s Eve at the most sparkling setting in town! We’ll distribute complimentary festive hats, horns and party favors to visitors while supplies last.\n4:30-9 p.m.\nFor participants of all ages\n\nZooLights Coat Drive\nEvery night of ZooLights we will be collecting new and gently used winter clothing. Donated items will be distributed to Chicago charities. Donation boxes will be located in Gateway Pavilion and Park Place Café.\n\nMembers Lounge\nLincoln Park Zoo members enjoy exclusive access to a Members Lounge located on the lower level of Park Place Café! Warm up with free hot chocolate, cider and tea, cookies and crafts.\nEvery ZooLights night except December 8 and January 1\nMembers Lounge hours: 4:30–8 p.m.\n\nMarketing and sponsorship opportunities are available. For more information, please contact Corporate Alliances Manager Ryann Kehoe at rkehoe@lpzoo.org.",
                       "energyLevel": 3,
                       "price": ["$0.00"],
@@ -2645,12 +3094,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60614,
-                      "activityMood": ["Family Fun", "Date Night"],
+                      "activityMood": ["Family Fun", "Date Night", "Cheap Thrills"],
                       "Field 15": "November 25–27, December 2–4, 9–23, 26–31; January 1, 2017  4:30–9 p.m.",
                       "fakeDate": "2016-12-03T02:43:00.000Z",
                       "cost": "0",
                       "lat": "41.9187937",
-                      "lng": "-87.6376537"
+                      "lng": "-87.6376537",
+                      "EnergyMin": 2,
+                      "EnergyMax": 4,
+                      "TimeStart": "2016-12-02T22:30:00.000Z",
+                      "TimeEnd": "2016-12-03T03:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:15:56.000Z"
               },
@@ -2658,30 +3112,30 @@ angular
                   "id": "recxViodlaYA86cFM",
                   "fields": {
                       "UniqueID": 31,
-                      "name": "Red Bull Sound Select Presents: Chicago ft. The Cool Kids",
+                      "name": "Chicago ft. The Cool Kids",
                       "image": [
                         {
-                            "id": "attQs0FmhlgGAX936",
-                            "url": "https://dl.airtable.com/bGWtgUyoQey01YcIHmkB_14731382_1095603363868354_1032549488958059519_n.jpg",
-                            "filename": "14731382_1095603363868354_1032549488958059519_n.jpg",
-                            "size": 78563,
-                            "type": "image/jpeg",
+                            "id": "attkrXWwQvlm4Cz7S",
+                            "url": "https://dl.airtable.com/E7U2ydwfRiuVoDuHI5GG_undefined.png",
+                            "filename": "undefined.png",
+                            "size": 1781572,
+                            "type": "image/png",
                             "thumbnails": {
                                 "small": {
-                                    "url": "https://dl.airtable.com/GZoQiWSShuy3rx0xNTr2_small_14731382_1095603363868354_1032549488958059519_n.jpg",
-                                    "width": 97,
+                                    "url": "https://dl.airtable.com/biPPG1IfR52dn8fsoXHW_small_undefined.png",
+                                    "width": 54,
                                     "height": 36
                                 },
                                 "large": {
-                                    "url": "https://dl.airtable.com/bFtcxCT6RyCRbBtiOHon_large_14731382_1095603363868354_1032549488958059519_n.jpg",
+                                    "url": "https://dl.airtable.com/durspewkQBu6u29Ixrfa_large_undefined.png",
                                     "width": 512,
-                                    "height": 315
+                                    "height": 512
                                 }
                             }
                         }
                       ],
-                      "dateTime": "2016-11-15T03:00:00.000Z",
-                      "desc": "ed Bull Sound Select is a monthly live music showcase curated by local tastemakers. \n\nFeaturing: The Cool Kids / Payroll Giovanni (of Doughboyz Cashout) / Femdot\n\nDJ Set by: Ty Howard\n\n*RSVP for $3 entry: http://win.gs/DecChi \n*Join the conversation: @RBsoundselect #BreakMusic\n\nNOTE: RSVP confirmation does not guarantee you entry, but does qualify you for a $3 ticket. Entry is first come first served up to capacity, regardless of RSVP. RSVP is also only good for each individual guest. No +1s will be included. You must RSVP on redbullsoundselect.com to receive the discounted ticket price. The show is all ages, but an ID is required.",
+                      "dateTime": "2016-12-07T03:00:00.000Z",
+                      "desc": "Red Bull Sound Select is a monthly live music showcase curated by local tastemakers. \n\nFeaturing: The Cool Kids / Payroll Giovanni (of Doughboyz Cashout) / Femdot\n\nDJ Set by: Ty Howard\n\n*RSVP for $3 entry: http://win.gs/DecChi \n*Join the conversation: @RBsoundselect #BreakMusic\n\nNOTE: RSVP confirmation does not guarantee you entry, but does qualify you for a $3 ticket. Entry is first come first served up to capacity, regardless of RSVP. RSVP is also only good for each individual guest. No +1s will be included. You must RSVP on redbullsoundselect.com to receive the discounted ticket price. The show is all ages, but an ID is required.",
                       "energyLevel": 5,
                       "price": ["$3.00"],
                       "eventURL": "https://www.facebook.com/events/1201724863199610/",
@@ -2689,12 +3143,17 @@ angular
                       "city": "Chicago",
                       "state": "Illinois",
                       "zip": 60608,
-                      "activityMood": ["Date Night", "Bottoms Up", "Night Owl", "Cultural Infusion"],
+                      "activityMood": ["Bottoms Up", "Night Owl", "Cultural Infusion", "Cheap Thrills"],
                       "Field 15": "9-1am",
                       "fakeDate": "2016-12-03T03:00:00.000Z",
                       "cost": "1",
                       "lat": "41.857711",
-                      "lng": "-87.657320"
+                      "lng": "-87.657320",
+                      "EnergyMin": 4,
+                      "EnergyMax": 6,
+                      "TimeStart": "2016-12-03T03:00:00.000Z",
+                      "TimeEnd": "2016-12-03T07:00:00.000Z",
+                      "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-07T01:29:41.000Z"
               }
@@ -2738,12 +3197,26 @@ angular
         supersonic.app.openURL(url)
       };
 
+      $scope.costString = function (cost) {
+          if (cost == 0) {
+              return "FREE"
+          }
+          else {
+              var result = ""
+              for (var i = 0; i < cost; i++) {
+                  result += "$"
+              }
+              return result
+          }
+      };
+
       $scope.feelingLucky = function () {
           var len = $scope.testEvents.length - 1;
           var r = Math.floor(Math.random() * len);
           var ev = $scope.testEvents[r];
           $scope.newEvent = jQuery.extend(true, {}, ev);
-          $scope.newEvent.fields.image = ev.fields.image[0]['url'];
+          $scope.newEvent.fields.image = ev.fields.image[ev.fields.image.length - 1]['url'];
+          $scope.newEvent.fields.displayCost = $scope.costString(ev.fields.cost);
           $scope.currentEvent = $scope.newEvent.fields;
           $scope.lat = parseFloat($scope.currentEvent.lat);
           $scope.lng = parseFloat($scope.currentEvent.lng);

@@ -3192,6 +3192,19 @@
 
     $scope.testEvents = $scope.testEvents.records;
 
+    $scope.costString = function (cost) {
+        if (cost == 0) {
+            return "FREE"
+        }
+        else {
+            var result = ""
+            for (var i = 0; i < cost; i++) {
+                result += "$"
+            }
+            return result
+        }
+    };
+
     $scope.feelingLucky = function () {
         var len = $scope.testEvents.length - 1;
         var r = Math.floor(Math.random() * len);
@@ -3199,6 +3212,7 @@
         $scope.newEvent = jQuery.extend(true, {}, ev);
         $scope.newEvent.fields.lucky = true;
         $scope.newEvent.fields.image = ev.fields.image[ev.fields.image.length - 1]['url'];
+        $scope.newEvent.fields.displayCost = $scope.costString(ev.fields.cost);
         var view = new supersonic.ui.View("detail#detailEvent");
         supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });
     }

@@ -32,26 +32,26 @@
             </super-navbar-button>
         </super-navbar>
 
-    <div class="froodBox" ng-class="{'froodBoxExtend':going}">
+    <div class="froodBox">
       <img ng-src="{{currentEvent.image}}" class="img-responsive" style ="width:100%">
-        <div class="row" style="width:100%">
-          <div class="col-xs-8">
+        <div class="row" style="width:100%; margin-top: 10px">
+          <div class="col-xs-7">
                 <div class="col-xs-12">
                     <h1>{{currentEvent.name}}</h1>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12" style="margin-top: 3px">
                     <h3>{{currentEvent.address}}</h3>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12" style="margin-top: 3px">
                     <h3>{{currentEvent.city}}</h3>
                 </div>
                 <div class="col-xs-12">
-                    <h3>{{currentEvent.dateTime | date: 'short'}}</h3>
-                    <img ng-repeat="filter in currentEvent.activityMood" src="{{filterLogo(filter)}}" class="img-responsive" style="height: 20px; display: inline-block;">
+                    <img ng-repeat="filter in currentEvent.activityMood" src="{{filterLogo(filter)}}" class="img-responsive" style="height: 20px; display: inline-block; margin-right: 3px; margin-top: 5px">
                 </div>
             </div>
-            <div class="col-xs-4" style="text-align: right" >
-                  <h1 style="color: #11722c;">{{currentEvent.displayCost}}</h1>
+            <div class="col-xs-5" style="text-align: right" >
+                  <h3>{{currentEvent.dateTime | date: 'short'}}</h3>
+                  <h3 style="color: #11722c; margin-top: 3px">{{currentEvent.displayCost}}</h3>
             </div>
 
         </div>
@@ -59,7 +59,7 @@
         <div class="row" >
           <div class="col-xs-12">
 
-                <div style="margin-top: 30px; margin-bottom: 20px;" class="col-xs-12">
+                <div style="margin-top: 20px; margin-bottom: 20px;" class="col-xs-12">
                     <p>{{currentEvent.desc}}</p>
                     <a ng-click="openExternalURL(currentEvent.eventURL)">More Information</a>
                 </div>

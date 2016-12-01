@@ -179,7 +179,8 @@ label.whiteword{
 h1{
   padding: 0px;
   margin: 0px auto;
-  font-size:4.5vw;
+  font-size: 4.5vw;
+  font-weight: bold;
 }
 h2{
   padding: 0px;
@@ -191,12 +192,14 @@ h3{
   padding: 0px;
   margin: 0px auto;
   font-size:4vw;
+  font-weight: 500;
 }
 h4{
   padding: 0px;
   margin: 0px auto;
   font-size:3.5vw;
 }
+
 @media (max-device-width: 640px){
   h1{
     padding: 0px;
