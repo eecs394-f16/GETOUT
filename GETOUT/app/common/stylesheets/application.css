@@ -65,7 +65,7 @@ label{
 }
 label.whiteword{
   color: #ffffff;
-  font-size: 11px;
+  font-size: normal;
 }
 .landingImage{
   border: 3px solid;
@@ -171,7 +171,7 @@ label.whiteword{
   font-weight: bold;
 } 
 
-.btn-lucky:active {
+.btn-lucky.hover{
   background-color: #036c61;
   border-color: #036c61;
 }

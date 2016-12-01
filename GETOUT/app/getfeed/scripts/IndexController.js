@@ -1587,11 +1587,6 @@ angular
                 "createdTime": "2016-11-10T01:19:54.000Z"
             },
             {
-                "id": "recQ2YkqrAK1nmsc5",
-                "fields": { "UniqueID": 68 },
-                "createdTime": "2016-11-23T01:29:34.000Z"
-            },
-            {
                 "id": "recRSX4qebkx3BU8V",
                 "fields": {
                     "UniqueID": 49,
@@ -1801,11 +1796,6 @@ angular
                     "TimeEnd": "2016-12-03T04:00:00.000Z"
                 },
                 "createdTime": "2016-11-23T01:26:46.000Z"
-            },
-            {
-                "id": "recXlrJAjR4pbNLaX",
-                "fields": { "UniqueID": 69 },
-                "createdTime": "2016-11-23T01:31:43.000Z"
             },
             {
                 "id": "recYzP1iceDGfvYRi",
@@ -2764,11 +2754,6 @@ angular
                 "createdTime": "2016-11-06T22:09:09.000Z"
             },
             {
-                "id": "recsy4udk960MXDTp",
-                "fields": { "UniqueID": 67 },
-                "createdTime": "2016-11-23T01:28:35.000Z"
-            },
-            {
                 "id": "rect5McGYne7oIpxv",
                 "fields": {
                     "UniqueID": 34,
@@ -3147,6 +3132,7 @@ angular
           ]
       }
 
+
     $scope.sortBy = "fields.distanceFromUser";
     $scope.sortName = "nearBy";
     $scope.reverse = false;
@@ -3178,11 +3164,12 @@ angular
       }
     };
 
-    $scope.filterEvents = function(filters, minLevel, maxLevel){
+    $scope.filterEvents = function (filters, minLevel, maxLevel) {
+ 
       if (filters.length==1 && filters[0]==""){
-        filters = []
+          filters = [];
       }
-      for (i in $scope.testEvents){
+      for (i in $scope.testEvents) {
         if (filters.length == 0){
             if ($scope.testEvents[i].fields.energyLevel >= minLevel && $scope.testEvents[i].fields.energyLevel <= maxLevel) {
                 var lastIndex = $scope.testEvents[i].fields.image.length - 1;
@@ -3208,8 +3195,9 @@ angular
         }
       }
     };
-    $scope.filterRequest = JSON.parse(window.localStorage.getItem("filterRequest"));
 
+    $scope.filterRequest = JSON.parse(window.localStorage.getItem("filterRequest"));
+   
     supersonic.device.geolocation.getPosition().then(function (position) {
         $scope.geolocationlat = position.coords.latitude;
         $scope.geolocationlng = position.coords.longitude;
@@ -3246,7 +3234,6 @@ angular
       }
 
     };
-
 
     $scope.updateCurrentEvent = function (ev) {
         $scope.newEvent = jQuery.extend(true, {}, ev);

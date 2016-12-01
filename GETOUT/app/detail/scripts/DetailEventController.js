@@ -1600,11 +1600,6 @@ angular
                   "createdTime": "2016-11-10T01:19:54.000Z"
               },
               {
-                  "id": "recQ2YkqrAK1nmsc5",
-                  "fields": { "UniqueID": 68 },
-                  "createdTime": "2016-11-23T01:29:34.000Z"
-              },
-              {
                   "id": "recRSX4qebkx3BU8V",
                   "fields": {
                       "UniqueID": 49,
@@ -1814,11 +1809,6 @@ angular
                       "TimeEnd": "2016-12-03T04:00:00.000Z"
                   },
                   "createdTime": "2016-11-23T01:26:46.000Z"
-              },
-              {
-                  "id": "recXlrJAjR4pbNLaX",
-                  "fields": { "UniqueID": 69 },
-                  "createdTime": "2016-11-23T01:31:43.000Z"
               },
               {
                   "id": "recYzP1iceDGfvYRi",
@@ -2775,11 +2765,6 @@ angular
                       "confirm Lat/Long (don't use, temporary)": "x"
                   },
                   "createdTime": "2016-11-06T22:09:09.000Z"
-              },
-              {
-                  "id": "recsy4udk960MXDTp",
-                  "fields": { "UniqueID": 67 },
-                  "createdTime": "2016-11-23T01:28:35.000Z"
               },
               {
                   "id": "rect5McGYne7oIpxv",
