@@ -65,7 +65,14 @@ label{
 }
 label.whiteword{
   color: #ffffff;
-  font-size: normal;
+  font-size: 10px;
+}
+
+@media (max-device-width: 320px){
+  label.whiteword{
+    color: #ffffff;
+    font-size: 14px;
+  }
 }
 .landingImage{
   border: 3px solid;
@@ -162,14 +169,14 @@ label.whiteword{
   background-color: #06c6b2;
   border: 2px solid;
   border-color: #06c6b2;
-  border-radius: 13px; 
+  border-radius: 13px;
   margin: 3px auto;
-  display: block; 
+  display: block;
   width: 98%;
   height: 30px;
   color: white;
   font-weight: bold;
-} 
+}
 
 .btn-lucky.hover{
   background-color: #036c61;
