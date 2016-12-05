@@ -24,3 +24,10 @@ This will open a new webpage in your browser containing a QR code for the app. U
 
 ### Deploying to the Cloud
 Follow the steps above to deploy the app locally. When the webpage containing the QR code opens, click on the "Cloud" button in the top right corner of the screen. Next, click on the "Deploy to Cloud" button. In the same terminal in which you ran `steroids connect`, you will see a URL pointing to a new QR code for the application. Open the URL and scan the QR code using the AppGyver Scanner to run the app.
+
+## Issues
+
+   * Location service must be enabled on both iOS and Android devices for the app to function correctly.
+   * At the events list page, the navigation bar will pop up later. 
+   * I'm feeling lucky random event function needs modifying to make sure any event is possible, and that events won't repeat until all events have been cycled through.
+   * It takes some time to load the pictures and map at the events list page and the I'm feeling lucky page, when there are many events.
