@@ -34,6 +34,11 @@ npm install steroids -g
 ```
 
 * jquery: v3.1.1
+
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+```
+
 * Angular: v1.3.20
 * bootstrap: v3.3.7
 * [Angularjs-slider](https://github.com/angular-slider/angularjs-slider):   
