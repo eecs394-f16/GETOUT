@@ -14,10 +14,13 @@ steroids update
  You must have nvm, supersonic, bootstrap and Angular installed.
  
  * Node Version Manager(NVM): 
+ 
  ```
  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
  ```
+
 * Node: make sure your Node.js version to be 0.12
+
 ```
 nvm install 0.12
 nvm use 0.12
@@ -25,14 +28,21 @@ nvm alias default 0.12
 ```
 
 * Install the Steroids Command-Line Interface (CLI for short).
+
 ```
 npm install steroids -g
 ```
-* jquery: 3.1.1
+
+* jquery: v3.1.1
+* Angular: v1.3.20
 * bootstrap: v3.3.7
 * [Angularjs-slider](https://github.com/angular-slider/angularjs-slider):   
-    > https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/X.X.X/rzslider.min.js
-    > https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/X.X.X/rzslider.min.css
+
+```<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
+```
+  
 * Google Maps API: 
    >https://developers.google.com/maps/
 
