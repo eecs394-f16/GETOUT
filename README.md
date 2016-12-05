@@ -44,8 +44,8 @@ npm install steroids -g
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
 ```
   
-* Google Maps API: 
-   >https://developers.google.com/maps/
+* [Google Maps API](https://developers.google.com/maps/)
+   
 
 ## Running the App
 In order to run this app, you will first need to download the AppGyver Scanner on your mobile phone ([iOS](https://itunes.apple.com/fi/app/appgyver-scanner/id575076515) and [Android](https://play.google.com/store/apps/details?id=com.appgyver.freshandroid)).
