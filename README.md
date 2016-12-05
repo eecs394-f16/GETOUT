@@ -15,9 +15,9 @@ steroids update
  
  * Node Version Manager(NVM): 
  
- ```
+```
  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
- ```
+```
 
 * Node: make sure your Node.js version to be 0.12
 
@@ -38,9 +38,10 @@ npm install steroids -g
 * bootstrap: v3.3.7
 * [Angularjs-slider](https://github.com/angular-slider/angularjs-slider):   
 
-```<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
+```
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
 ```
   
 * Google Maps API: 
