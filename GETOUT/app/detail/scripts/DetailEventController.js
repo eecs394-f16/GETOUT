@@ -1,6 +1,7 @@
 angular
 .module('detail')
   .controller('DetailEventController', function ($scope, $window, supersonic) {
+    // supersonic built in called when switching to the detail view
       var stopListening = supersonic.ui.views.current.params.onValue(function (params) {
           $scope.currentEvent = params;
           $scope.luckyEvent = ($scope.currentEvent.lucky=='false') ? false : true;
@@ -3177,7 +3178,7 @@ angular
         }
 
       };
-
+      //opening urls in browser
       $scope.openExternalURL = function(url){
         supersonic.app.openURL(url)
       };

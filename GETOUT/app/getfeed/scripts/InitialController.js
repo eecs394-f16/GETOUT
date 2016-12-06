@@ -2,7 +2,7 @@
   .module('getfeed')
   .controller('InitialController', function($scope, supersonic) {
     $scope.userFilters = [];
-
+// add filters to the request, or remove it if it is already present
     $scope.addFilter = function (filter){
       if ($scope.userFilters.indexOf(filter)>=0){
         $scope.userFilters.splice($scope.userFilters.indexOf(filter),1);
@@ -11,7 +11,7 @@
         $scope.userFilters.push(filter);
       }
     };
-
+    // energy slider paramters
     $scope.energySlider = {
       minValue: 3,
       maxValue: 7,
@@ -35,7 +35,7 @@
         ]
       }
     };
-
+//go to homepage
     $scope.initializeFeed = function(){
       $scope.filterRequest = {};
       $scope.filterRequest.filters = $scope.userFilters;
@@ -3176,7 +3176,7 @@
       }
 
     $scope.testEvents = $scope.testEvents.records;
-
+    //calculate cost string
     $scope.costString = function (cost) {
         if (cost == 0) {
             return "FREE"
@@ -3189,7 +3189,7 @@
             return result
         }
     };
-
+// push info to the detail view as an im feeling lucky event
     $scope.feelingLucky = function () {
         var len = $scope.testEvents.length - 1;
         var r = Math.floor(Math.random() * len);

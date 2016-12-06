@@ -3133,15 +3133,15 @@ angular
       }
 
 
-    $scope.sortBy = "fields.distanceFromUser";
-    $scope.sortName = "nearBy";
-    $scope.reverse = false;
-    $scope.sortMenu = false;
+    $scope.sortBy = "fields.distanceFromUser"; //sorting variable
+    $scope.sortName = "nearBy"; //this is to see which filter is active for the css class
+    $scope.reverse = false; // reverse the sorting
+    $scope.sortMenu = false; // show the sort box
 
     $scope.testEvents = $scope.testEvents.records;
-    $scope.displayEvents=[];
-    //$scope.locationsToDisplay = [];
+    $scope.displayEvents=[]; // the filtered display array
 
+    //get the distance between an event and a user
     $scope.getDist = function(a, b, c, d){
       a = parseFloat(a);
       b = parseFloat(b);
@@ -3150,7 +3150,7 @@ angular
       var result = Math.sqrt(Math.pow((a - c),2) + Math.pow((b - d),2));
       return result;
     }
-
+    //turning the cost value into $
     $scope.costString = function(cost){
       if (cost==0) {
         return "FREE"
@@ -3164,8 +3164,9 @@ angular
       }
     };
 
+    //the function that handles filtering, some parameters are only calculated here like cost and distance
     $scope.filterEvents = function (filters, minLevel, maxLevel) {
- 
+
       if (filters.length==1 && filters[0]==""){
           filters = [];
       }
@@ -3196,14 +3197,16 @@ angular
       }
     };
 
+
     $scope.filterRequest = JSON.parse(window.localStorage.getItem("filterRequest"));
-   
+
     supersonic.device.geolocation.getPosition().then(function (position) {
         $scope.geolocationlat = position.coords.latitude;
         $scope.geolocationlng = position.coords.longitude;
         $scope.filterEvents($scope.filterRequest.filters, $scope.filterRequest.energyLevelMin, $scope.filterRequest.energyLevelMax);
     });
 
+    //getting the filter logos url for the event cards
     $scope.filterLogo = function(filter){
       if (filter == "Date Night"){
         return "/icons/dateNightB.png"
@@ -3234,7 +3237,7 @@ angular
       }
 
     };
-
+    //go to the detail view when clicking event card using this
     $scope.updateCurrentEvent = function (ev) {
         $scope.newEvent = jQuery.extend(true, {}, ev);
         $scope.newEvent.fields.image=ev.fields.image[0]['url'];
@@ -3242,7 +3245,7 @@ angular
         var view = new supersonic.ui.View("detail#detailEvent");
         supersonic.ui.layers.push(view, { params: $scope.newEvent.fields });
     };
-
+    // go home
     $scope.showInitialView = function () {
         supersonic.ui.initialView.show();
     }
